@@ -19,6 +19,10 @@
             justify-content: center;
             align-items: center;
             padding: 20px;
+            background-image: url('https://dj-diu.github.io/invitation/bg.jpg');
+            /* background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; */
         }
 
         .container {
@@ -37,12 +41,19 @@
             background: rgba(255,255,255,0.1);
             border-radius: 10px;
             backdrop-filter: blur(10px);
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background: rgba(255,255,255,0.1);
+            /* letter-spacing: 2px; */
         }
 
         .recipient-name .label {
             font-size: 18px;
             font-weight: normal;
             opacity: 0.9;
+            font-weight: bold;
         }
 
         .flipbook-container {
@@ -111,6 +122,7 @@
 
         #prevBtn {
             background: #ff6b6b;
+            background: #f03434;
             color: white;
         }
 
@@ -130,7 +142,13 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(78,205,196,0.4);
         }
-
+        #guestName {
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+        #guestNameParent {
+            margin-top: 10px;
+        }
         .page-indicator {
             text-align: center;
             color: white;
@@ -150,7 +168,9 @@
             padding: 40px;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         }
-
+        .blurred {
+            filter: blur(5px);
+        }
         @media (max-width: 768px) {
             .book {
                 width: 90vw;
@@ -173,8 +193,8 @@
 <body>
     <div class="container">
         <div class="recipient-name">
-            <div class="label">To:</div>
-            <div id="guestName">Guest</div>
+            <div class="label">|| प्रति ||</div>
+            <div id="guestNameParent">श्री/ श्रीमती.<span id="guestName"></span> सह परिवार</div>
         </div>
 
         <div class="flipbook-container">
@@ -194,6 +214,7 @@
     </div>
 
     <script>
+        const intervalTime = 500;
         // CONFIGURATION - Replace these with your actual image URLs
         const pageImages = [
             'https://dj-diu.github.io/invitation/Cover.jpg', // Page 1 - Add your image URL here
@@ -206,15 +227,21 @@
         // Get guest name from URL parameter
         function getGuestName() {
             const urlParams = new URLSearchParams(window.location.search);
-            const name = urlParams.get('to');
-            return name ? decodeURIComponent(name) : 'Guest';
+            const name = urlParams.get('gid');
+            return name ? decodeName(name) : '________________________';
+        }
+
+        function decodeName(encoded) {
+        const decoded = decodeURIComponent(atob(encoded));
+        return decoded;
         }
 
         // Set guest name
         document.getElementById('guestName').textContent = getGuestName();
 
         // Create pages
-        const book = document.getElementById('book');
+       // Create pages
+       const book = document.getElementById('book');
         const totalPages = pageImages.length;
         let currentPage = 0;
 
