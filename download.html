@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Force PDF Download with Notification</title>
+  <style>
+    #message {
+      display: none;
+      margin-top: 15px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    #message.downloading {
+      color: #007bff;
+    }
+    #message.done {
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="downloadBtn">Download Invitation</button>
+  <div id="message"></div>
+
+  <script>
+    document.getElementById("downloadBtn").addEventListener("click", async function() {
+      const fileUrl = "https://letslogin101-star.github.io/invitation/Dhananjay&Darshana.pdf";
+      const fileName = "Dhananjay&Darshana.pdf";
+      const message = document.getElementById("message");
+
+      message.style.display = "block";
+      message.textContent = "Downloading...";
+      message.className = "downloading";
+
+      try {
+        const response = await fetch(fileUrl);
+        if (!response.ok) throw new Error("File not found or network error");
+
+        const blob = await response.blob();
+        const a = document.createElement("a");
+        const url = window.URL.createObjectURL(blob);
+        a.href = url;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+
+        message.textContent = "✅ Download complete!";
+        message.className = "done";
+      } catch (error) {
+        console.error("Download failed:", error);
+        message.textContent = "❌ Download failed. Please try again.";
+        message.className = "";
+      }
+
+      // Hide message after 4 seconds
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 4000);
+    });
+  </script>
+
+</body>
+</html>
