@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            min-height: 150px;
+            font-family: inherit;
+            resize: vertical;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102,126,234,0.4);
+        }
+
+        .results {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .results.show {
+            display: block;
+        }
+
+        .result-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .result-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .copy-btn {
+            background: #4ecdc4;
+            padding: 8px 16px;
+            font-size: 14px;
+            margin-top: 10px;
+            width: auto;
+        }
+
+        .copy-btn:hover {
+            background: #45b7af;
+        }
+
+        .url-display {
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            word-break: break-all;
+            font-family: monospace;
+            margin: 10px 0;
+        }
+
+        .whatsapp-msg {
+            background: #dcf8c6;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            white-space: pre-wrap;
+            direction: ltr;
+        }
+
+        .info-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .example {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎊 Invitation URL Generator</h1>
+        <p class="subtitle">Create personalized invitation links for your guests</p>
+
+        <div class="info-box">
+            <strong>📝 Instructions:</strong>
+            <ol style="margin-left: 20px; margin-top: 10px;">
+                <li>Enter your hosted invitation URL (after uploading to GitHub/Netlify)</li>
+                <li>Paste guest names (one per line)</li>
+                <li>Customize your Marathi WhatsApp message</li>
+                <li>Generate and copy links for each guest!</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <label>Your Invitation URL:</label>
+            <input type="text" id="baseUrl" placeholder="https://dj-diu.github.io/invitation/" value="https://dj-diu.github.io/invitation/">
+            <p class="example">Example: https://yourusername.github.io/invitation/index.html</p>
+        </div>
+
+        <div class="section">
+            <label>Guest Names (in English):</label>
+            <textarea id="guestNamesEnglish" placeholder="Dhananjay Gadakh"></textarea>
+        </div>
+
+        <button style="width: 40%;" onclick="generateNameEnglish()">Translate to Marathi</button>
+
+        <div class="section">
+            <label>Guest Names (in Marathi):</label>
+            <textarea id="guestNames" placeholder="राज कुमार"></textarea>
+            Click here for <a href="https://marathi.indiatyping.com/" target="_blank">More Clear Translation</a>
+        </div>
+
+        <div class="section">
+            <label>WhatsApp Message Template (Marathi):</label>
+            <textarea id="messageTemplate">नमस्कार {NAME},
+
+तुम्हाला आमच्या विशेष कार्यक्रमासाठी आमंत्रित करण्यात आम्हाला आनंद होत आहे! 🎉
+
+कृपया तुमचे वैयक्तिक आमंत्रण पहा:
+{URL}
+
+तुमची उपस्थिती आमच्यासाठी खूप महत्वाची आहे.
+
+धन्यवाद! 🙏</textarea>
+            <p class="example">Use {NAME} for guest name and {URL} for the link</p>
+        </div>
+
+        <button onclick="generateLinks()">Generate Links</button>
+
+        <div class="results" id="results"></div>
+    </div>
+
+    <script>
+        function encodeName(name) {
+        const encoded = btoa(encodeURIComponent(name));
+        return encoded;
+        }
+
+        function generateLinks() {
+            const baseUrl = document.getElementById('baseUrl').value.trim();
+            const guestNames = document.getElementById('guestNames').value.trim().split('\n').filter(name => name.trim());
+            const messageTemplate = document.getElementById('messageTemplate').value;
+
+            if (!baseUrl) {
+                alert('Please enter your invitation URL');
+                return;
+            }
+
+            if (guestNames.length === 0) {
+                alert('Please enter at least one guest name');
+                return;
+            }
+
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<h2 style="margin-bottom: 20px;">📱 Generated Links & Messages</h2>';
+
+            guestNames.forEach((name, index) => {
+                const trimmedName = name.trim();
+                let encodedName = encodeURIComponent(trimmedName);
+                encodedName = encodeName(trimmedName);
+                const personalUrl = `${baseUrl}?gid=${encodedName}`;
+                const message = messageTemplate
+                    .replace(/{NAME}/g, trimmedName)
+                    .replace(/{URL}/g, personalUrl);
+                console.log(message);
+
+                const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+
+                const resultItem = document.createElement('div');
+                resultItem.className = 'result-item';
+                resultItem.innerHTML = `
+                    <h3>${index + 1}. ${trimmedName}</h3>
+                    
+                    <strong>Personal URL:</strong>
+                    <div id="url-display">${personalUrl}</div>
+                    <button class="copy-btn" onclick="copyToClipboard('url-display')">Copy URL</button>
+                    
+                    <strong style="display: block; margin-top: 15px;">WhatsApp Message:</strong>
+                    <div id="whatsapp-msg">${message}</div>
+                    <button class="copy-btn" onclick="copyToClipboard('whatsapp-msg')">Copy Message</button>
+                    <a href="${whatsappUrl}" target="_blank" style="display: inline-block; margin-left: 10px;">
+                        <button class="copy-btn" style="background: #25D366;">Send via WhatsApp</button>
+                    </a>
+                `;
+
+                resultsDiv.appendChild(resultItem);
+            });
+
+            resultsDiv.classList.add('show');
+        }
+        generateNameEnglish = async () =>{
+            const text = document.getElementById("guestNamesEnglish").value;
+            const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=mr&dt=t&q=${encodeURIComponent(text)}`;
+            
+            try {
+                const res = await fetch(url);
+                const data = await res.json();
+                const translated = data[0].map(item => item[0]).join("");
+                document.getElementById("guestNames").textContent = translated;
+            } catch (err) {
+                console.error(err);
+                document.getElementById("guestNames").textContent = "Translation failed.";
+            }
+        }
+        function copyToClipboard(type) {
+            navigator.clipboard.writeText(document.getElementById(type).textContent).then(() => {
+                alert('✓ Copied!');
+            }).catch(err => {
+                console.error(err);
+                alert('Failed to copy. Please copy manually.');
+            });
+        }
+
+    </script>
+</body>
+</html>

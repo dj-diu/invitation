@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>English to Marathi Translator</title>
+</head>
+<body>
+  <h2>English → Marathi Translator</h2>
+  <textarea id="english" placeholder="Type English text here..." rows="4" cols="50"></textarea>
+  <br><br>
+  <button id="translateBtn">Translate</button>
+  <h3>Marathi Output:</h3>
+  <p id="output"></p>
+
+  <script>
+    document.getElementById("translateBtn").addEventListener("click", async () => {
+      const text = document.getElementById("english-text").value;
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=mr&dt=t&q=${encodeURIComponent(text)}`;
+      
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        const translated = data[0].map(item => item[0]).join("");
+        document.getElementById("output").textContent = translated;
+      } catch (err) {
+        console.error(err);
+        document.getElementById("output").textContent = "Translation failed.";
+      }
+    });
+  </script>
+</body>
+</html>
