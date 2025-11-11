@@ -53,11 +53,11 @@
             /* letter-spacing: 2px; */
         }
         .recipient-name {
-  color: rgba(47, 79, 79, 0.95); /* dark slate gray */
-  backdrop-filter: blur(3px);
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
+            color: rgba(47, 79, 79, 0.95); /* dark slate gray */
+            backdrop-filter: blur(3px);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
         }
         
 
@@ -95,6 +95,12 @@
             transform-origin: left;
             transition: transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
             box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+            opacity: 0;
+            visibility: hidden;
+        }
+        .page.loaded {
+            opacity: 1;
+            visibility: visible;
         }
 
         .page img {
@@ -188,6 +194,58 @@
         .blurred {
             filter: blur(5px);
         }
+        .download-btn-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        #downloadBtn {
+            padding: 10px 16px;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            color: #2c3e50;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        #downloadBtn:hover {
+            background: rgba(255, 255, 255, 1);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        #downloadBtn .btn-text {
+            display: inline;
+        }
+        #downloadBtn .btn-icon {
+            font-size: 18px;
+        }
+        #downloadMessage {
+            display: none;
+            position: fixed;
+            top: 70px;
+            right: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 5px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 1001;
+            font-size: 14px;
+        }
+        #downloadMessage.downloading {
+            color: #007bff;
+        }
+        #downloadMessage.done {
+            color: #28a745;
+        }
         @media (max-width: 768px) {
             .book {
                 width: 90vw;
@@ -204,10 +262,40 @@
                 padding: 12px 30px;
                 font-size: 16px;
             }
+            .download-btn-container {
+                top: 15px;
+                right: 15px;
+            }
+            #downloadBtn {
+                padding: 10px;
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                justify-content: center;
+            }
+            #downloadBtn .btn-text {
+                display: none;
+            }
+            #downloadBtn .btn-icon {
+                font-size: 20px;
+            }
+            #downloadMessage {
+                top: 65px;
+                right: 15px;
+                font-size: 12px;
+                padding: 8px 16px;
+            }
         }
     </style>
 </head>
 <body>
+    <div class="download-btn-container">
+        <button id="downloadBtn">
+            <span class="btn-icon">⬇️</span>
+            <span class="btn-text">Download PDF</span>
+        </button>
+        <div id="downloadMessage"></div>
+    </div>
     <div class="container">
         <div class="recipient-name">
             <div class="label">|| प्रति ||</div>
@@ -269,33 +357,96 @@
        const book = document.getElementById('book');
         const totalPages = pageImages.length;
         let currentPage = 0;
+        const pages = [];
 
-        pageImages.forEach((imageUrl, index) => {
-            const page = document.createElement('div');
-            page.className = 'page';
-            page.style.zIndex = totalPages - index;
-            
-            if (imageUrl) {
-                const img = document.createElement('img');
-                img.src = imageUrl;
-                img.alt = `Page ${index + 1}`;
-                page.appendChild(img);
-            } else {
-                const placeholder = document.createElement('div');
-                placeholder.className = 'placeholder-text';
-                placeholder.textContent = `Page ${index + 1}\n\nReplace with your invitation image`;
-                page.appendChild(placeholder);
-            }
-            
-            book.appendChild(page);
-        });
+        // Preload all images and create pages
+        function preloadImages() {
+            const imagePromises = pageImages.map((imageUrl, index) => {
+                return new Promise((resolve, reject) => {
+                    if (!imageUrl) {
+                        resolve(null);
+                        return;
+                    }
+                    
+                    const img = new Image();
+                    img.onload = () => resolve({ img, index });
+                    img.onerror = () => reject(new Error(`Failed to load image: ${imageUrl}`));
+                    img.src = imageUrl;
+                });
+            });
+
+            Promise.all(imagePromises).then((results) => {
+                // Create pages after all images are loaded
+                results.forEach((result, index) => {
+                    const page = document.createElement('div');
+                    page.className = 'page';
+                    page.style.zIndex = totalPages - index;
+                    
+                    if (result && result.img) {
+                        const img = result.img;
+                        img.alt = `Page ${index + 1}`;
+                        page.appendChild(img);
+                    } else if (pageImages[index]) {
+                        const img = document.createElement('img');
+                        img.src = pageImages[index];
+                        img.alt = `Page ${index + 1}`;
+                        page.appendChild(img);
+                    } else {
+                        const placeholder = document.createElement('div');
+                        placeholder.className = 'placeholder-text';
+                        placeholder.textContent = `Page ${index + 1}\n\nReplace with your invitation image`;
+                        page.appendChild(placeholder);
+                    }
+                    
+                    book.appendChild(page);
+                    pages.push(page);
+                });
+
+                // Mark all pages as loaded (they'll be visible)
+                if (pages.length > 0) {
+                    pages.forEach(page => page.classList.add('loaded'));
+                }
+                
+                // Update buttons after pages are loaded
+                updateButtons();
+            }).catch((error) => {
+                console.error('Error loading images:', error);
+                // Still create pages even if some images fail
+                pageImages.forEach((imageUrl, index) => {
+                    const page = document.createElement('div');
+                    page.className = 'page loaded';
+                    page.style.zIndex = totalPages - index;
+                    
+                    if (imageUrl) {
+                        const img = document.createElement('img');
+                        img.src = imageUrl;
+                        img.alt = `Page ${index + 1}`;
+                        page.appendChild(img);
+                    } else {
+                        const placeholder = document.createElement('div');
+                        placeholder.className = 'placeholder-text';
+                        placeholder.textContent = `Page ${index + 1}\n\nReplace with your invitation image`;
+                        page.appendChild(placeholder);
+                    }
+                    
+                    book.appendChild(page);
+                    pages.push(page);
+                });
+                if (pages.length > 0) {
+                    pages[0].classList.add('loaded');
+                }
+                updateButtons();
+            });
+        }
+
+        // Start preloading images
+        preloadImages();
 
         // Navigation
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
         const currentPageSpan = document.getElementById('currentPage');
         const totalPagesSpan = document.getElementById('totalPages');
-        const pages = document.querySelectorAll('.page');
 
         totalPagesSpan.textContent = totalPages;
 
@@ -306,7 +457,7 @@
         }
 
         nextBtn.addEventListener('click', () => {
-            if (currentPage < totalPages - 1) {
+            if (currentPage < totalPages - 1 && pages.length > 0) {
                 pages[currentPage].classList.add('flipped');
                 currentPage++;
                 updateButtons();
@@ -314,7 +465,7 @@
         });
 
         prevBtn.addEventListener('click', () => {
-            if (currentPage > 0) {
+            if (currentPage > 0 && pages.length > 0) {
                 currentPage--;
                 pages[currentPage].classList.remove('flipped');
                 updateButtons();
@@ -325,6 +476,44 @@
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowRight') nextBtn.click();
             if (e.key === 'ArrowLeft') prevBtn.click();
+        });
+
+        // Download PDF functionality
+        document.getElementById("downloadBtn").addEventListener("click", async function() {
+            const fileUrl = "https://dj-diu.github.io/invitation/assests/images/Dhananjay&Darshana.pdf";
+            const fileName = "Dhananjay&Darshana.pdf";
+            const message = document.getElementById("downloadMessage");
+
+            message.style.display = "block";
+            message.textContent = "Downloading...";
+            message.className = "downloading";
+
+            try {
+                const response = await fetch(fileUrl);
+                if (!response.ok) throw new Error("File not found or network error");
+
+                const blob = await response.blob();
+                const a = document.createElement("a");
+                const url = window.URL.createObjectURL(blob);
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                window.URL.revokeObjectURL(url);
+
+                message.textContent = "✅ Download complete!";
+                message.className = "done";
+            } catch (error) {
+                console.error("Download failed:", error);
+                message.textContent = "❌ Download failed. Please try again.";
+                message.className = "";
+            }
+
+            // Hide message after 4 seconds
+            setTimeout(() => {
+                message.style.display = "none";
+            }, 4000);
         });
     </script>
 </body>
