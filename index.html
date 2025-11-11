@@ -19,7 +19,7 @@
             justify-content: center;
             align-items: center;
             padding: 20px;
-            background-image: url('https://dj-diu.github.io/invitation/bg2.jpeg');
+            background-image: url('https://dj-diu.github.io/invitation/assests/images/bg2.jpeg');
             /* background-size: cover;
             background-position: center;
             background-repeat: no-repeat; */
@@ -229,10 +229,10 @@
         const intervalTime = 500;
         // CONFIGURATION - Replace these with your actual image URLs
         const pageImages = [
-            'https://dj-diu.github.io/invitation/Cover.jpg', // Page 1 - Add your image URL here
-            'https://dj-diu.github.io/invitation/invite.png', // Page 2 - Add your image URL here
-            'https://dj-diu.github.io/invitation/address.png', // Page 3 - Add your image URL here
-            'https://dj-diu.github.io/invitation/guest.png', // Page 4 - Add your image URL here
+            'https://dj-diu.github.io/invitation/assests/images/Cover.jpg', // Page 1 - Add your image URL here
+            'https://dj-diu.github.io/invitation/assests/images/invite.png', // Page 2 - Add your image URL here
+            'https://dj-diu.github.io/invitation/assests/images/address.png', // Page 3 - Add your image URL here
+            'https://dj-diu.github.io/invitation/assests/images/guest.png', // Page 4 - Add your image URL here
             // Add more pages as needed
         ];
 
@@ -240,7 +240,7 @@
             const urlParams = new URLSearchParams(window.location.search);
             const event = urlParams.get('ev');
             if(event === "all") {
-              pageImages.splice(2, 0, "https://dj-diu.github.io/invitation/eng-invite.jpg"); 
+              pageImages.splice(2, 0, "https://dj-diu.github.io/invitation/assests/images/eng-invite.jpg"); 
             }
         }
         getEngagementInviteStatus()
