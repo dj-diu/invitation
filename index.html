@@ -46,7 +46,7 @@
             font-size: 20px;
             font-weight: bold;
             background: rgba(255,255,255,0.1);
-            color: rgba(137, 14, 2)
+            color: rgba(137, 14, 2);
             color: rgba(212, 175, 55, 0.95);
             text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
             
@@ -236,6 +236,14 @@
             // Add more pages as needed
         ];
 
+        function getEngagementInviteStatus() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const event = urlParams.get('ev');
+            if(event === "all") {
+              pageImages.splice(2, 0, "https://dj-diu.github.io/invitation/eng-invite.jpg"); 
+            }
+        }
+        getEngagementInviteStatus()
         // Get guest name from URL parameter
         function getGuestName() {
             const urlParams = new URLSearchParams(window.location.search);
