@@ -298,7 +298,7 @@
     </div>
     <div class="container">
         <div class="recipient-name">
-            <div class="label">|| प्रति ||</div>
+            <div class="label" id="guestNamePrati">|| प्रति ||</div>
             <div id="guestNameParent">श्री/ श्रीमती.<span id="guestName"></span> सह परिवार</div>
         </div>
 
@@ -335,6 +335,7 @@
             if(event === "all") {
               pageImages.splice(2, 0, "https://dj-diu.github.io/invitation/assests/images/eng-invite-final.jpg"); 
             }
+            
         }
         getEngagementInviteStatus()
         // Get guest name from URL parameter
@@ -347,6 +348,13 @@
         function decodeName(encoded) {
         const decoded = decodeURIComponent(atob(encoded));
         return decoded;
+        }
+
+        function getMul() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const mul = urlParams.get('m')
+            if(mul === 'y') {
+                document.getElementById('guestNamePrati').innerHTML="मूळ पत्रिका"          }
         }
 
         // Set guest name
