@@ -218,6 +218,21 @@
         </div>
 
         <div class="section">
+            <label>मूळ पत्रिका:</label>
+            <div class="radio-group">
+                <div class="radio-option">
+                    <input type="radio" id="m-p-n" name="m-p" value="n" >
+                    <label for="m-p-n">No</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="m-p-y" name="m-p" value="y" checked>
+                    <label for="m-p-y">Yes</label>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="section">
             <label>Guest Names (in English):</label>
             <textarea id="guestNamesEnglish" placeholder="Dhananjay Gadakh"></textarea>
         </div>
@@ -255,6 +270,11 @@
         function getCurrentEventType() {
             const checkedRadio = document.querySelector('input[name="eventType"]:checked');
             return checkedRadio ? checkedRadio.value : 'wr';
+        }
+
+        function getCurrentMul() {
+            const checkedRadio = document.querySelector('input[name="m-p"]:checked');
+            return checkedRadio ? checkedRadio.value : 'n';
         }
 
         // Load saved data from localStorage on page load
@@ -335,6 +355,7 @@
             const baseUrl = document.getElementById('baseUrl').value.trim();
             const guestNames = document.getElementById('guestNames').value.trim().split('\n').filter(name => name.trim());
             const messageTemplate = document.getElementById('messageTemplate').value;
+            const mul = getCurrentMul();
             const eventType = document.querySelector('input[name="eventType"]:checked').value;
 
             if (!baseUrl) {
@@ -354,7 +375,7 @@
                 const trimmedName = name.trim();
                 let encodedName = encodeURIComponent(trimmedName);
                 encodedName = encodeName(trimmedName);
-                const personalUrl = `${baseUrl}?gid=${encodedName}&ev=${eventType}`;
+                const personalUrl = `${baseUrl}?gid=${encodedName}&ev=${eventType}&m=${mul}`;
                 const message = messageTemplate
                     .replace(/{NAME}/g, trimmedName)
                     .replace(/{URL}/g, personalUrl);
@@ -414,3 +435,4 @@
     </script>
 </body>
 </html>
+
