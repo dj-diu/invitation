@@ -1,0 +1,2904 @@
+[{
+  "_id": {
+    "$oid": "697e250b1553202a57517996"
+  },
+  "DocNo": "3900",
+  "DName": "करारनामा",
+  "RDate": "13/04/2017",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भंवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"वैशाली भरत नखाते--\",\"भरत नखाते--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 1,तळ मजला,\" महावीर मन्नत \" भूखंड क्र 168,सेक्टर क्र 9,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 33.82 चौ. मी. कारपेट.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 1,
+  "purchaseDate": {
+    "$date": "2017-04-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d55"
+  },
+  "DocNo": "7469",
+  "DName": "Leave and Licenses",
+  "RDate": "28/10/2025",
+  "SROName": "Joint S.R.Karjat 2",
+  "Seller Name": "{SahaduNakhateBharat}",
+  "Purchaser Name": "{\"Ansh JaishankarDubeyAntariksh\"}",
+  "Property Description": "Shop No:01, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe 410206, Road:-, City:Ulave, District:Raigad",
+  "SROCode": "543",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 1,
+  "purchaseDate": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751796d"
+  },
+  "DocNo": "2687",
+  "DName": "करारनामा",
+  "RDate": "10/03/2016",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर ओेमप्रकाश छाजेर तर्फे कु.मु. मिथीलेश पांडे--\"}",
+  "Purchaser Name": "{\"तृप्ती हरेश शिंदे--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 02 तळमजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर क्र 9 उलवे ता पनवेल जि रायगड - क्षेत्रफळ 34.28 चौ मी कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2016.json",
+  "sourceYear": "2016",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.442Z"
+  },
+  "shop": 2,
+  "purchaseDate": {
+    "$date": "2016-03-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a2c"
+  },
+  "DocNo": "6516",
+  "DName": "कन्व्हेन्स डीड",
+  "RDate": "17/05/2018",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"तृप्ती हरेश शिंदे--\"}",
+  "Purchaser Name": "{\"सुआदेवी भंवरलाल छाजेर--\"}",
+  "Property Description": ", इतर माहिती: विभाग क्र 27/1,दर 84,700/-,शॉप क्र 02,तळ मजला,\" महावीर मन्नत \" भूखंड क्र 168,सेक्टर क्र 9,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 34.28 चौ. मी. कारपेट.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 2,
+  "purchaseDate": {
+    "$date": "2018-05-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c5c"
+  },
+  "DocNo": "3630",
+  "DName": "करारनामा",
+  "RDate": "27/02/2023",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"सुआदेवी भंवरलाल छाजेर--\"}",
+  "Purchaser Name": "{\"सीमा एस यादव--\",\"संतोष कुमार यादव--\"}",
+  "Property Description": ", इतर माहिती: शॉप नं.2,तळ मजला,महावीर मन्नत को-ऑपरेटिव्ह हौसिंग सोसायटी लिमिटेड,प्लॉट नं.168,सेक्टर-9,उलवे नवी मुंबई,क्षेत्र-34.28 चौ.मी.(369 चौ.फूट कारपेट एरिया)",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 2,
+  "purchaseDate": {
+    "$date": "2023-02-27T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c5e"
+  },
+  "DocNo": "4067",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "08/03/2023",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"सुयादेवी भंवरलाल छाजेर--\"}",
+  "Purchaser Name": "{\"संतोष कुमार यादव--\",\"सीमा एस यादव--\"}",
+  "Property Description": ", इतर माहिती: शॉप नं.2,तळ मजला,महावीर मन्नत को-ऑपरेटिव्ह हौसिंग सोसायटी लिमिटेड,प्लॉट नं.168,सेक्टर-9,उलवे नवी मुंबई,क्षेत्र-34.28 चौ.मी.,369 चौ.फूट कारपेट एरिया,पवल3-दस्त नं-3630-2023,दिनांक-24.02.2023,मु.शु.630000/-,व नो.फी.30000/-अन्वये फी वसुल",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 2,
+  "purchaseDate": {
+    "$date": "2023-03-08T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c5d"
+  },
+  "DocNo": "4066",
+  "DName": "65-चुक दुरुस्ती पत्र",
+  "RDate": "08/03/2023",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"सुआदेवी भंवरलाल छाजेर--\"}",
+  "Purchaser Name": "{\"संतोष कुमार यादव--\",\"सीमा एस यादव--\"}",
+  "Property Description": ", इतर माहिती: शॉप नं.2,तळ मजला,महावीर मन्नत को-ऑपरेटिव्ह हौसिंग सोसायटी लिमिटेड,प्लॉट नं.168,सेक्टर-9,उलवे नवी मुंबई,क्षेत्र-34.28 चौ.मी.(369 चौ.फूट कारपेट एरिया)पवल3 दस्त क्र. 3630- 27-2-2023 चे चूक दुरुस्ती पत्र",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 2,
+  "purchaseDate": {
+    "$date": "2023-03-08T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751791d"
+  },
+  "DocNo": "8948",
+  "DName": "करारनामा",
+  "RDate": "10/12/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर ओमप्रकाश बी छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"संदीप जोगडे--\",\"कृपा जोगडे--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 3 तळ मजला \" महावीर मन्नत \" भुखंड क्र 168 सेक्टर 9 उलवे नवी मुंबई - क्षेत्रफळ 325 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 3,
+  "purchaseDate": {
+    "$date": "2014-12-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b14"
+  },
+  "DocNo": "14377",
+  "DName": "Leave and Licenses",
+  "RDate": "04/11/2019",
+  "SROName": "Joint S.R.Panvel 2",
+  "Seller Name": "{SunilPrabhakarTemkar,SunilPrabhakarTemkar,\"KrupaMrs Jogde\",SandeepJogde}",
+  "Purchaser Name": "{VikasPandharinathWaghule,AkshaySantoshKharade}",
+  "Property Description": "Shop No:03, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:Ulwe 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "353",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2019.json",
+  "sourceYear": "2019",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.446Z"
+  },
+  "shop": 3,
+  "purchaseDate": {
+    "$date": "2019-11-04T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c70"
+  },
+  "DocNo": "8939",
+  "DName": "बक्षीसपत्र",
+  "RDate": "18/10/2023",
+  "SROName": "सह दु.नि.पनवेल 1",
+  "Seller Name": "{\"कृपा जोगडे--\"}",
+  "Purchaser Name": "{\"राधिका सुनिल टेमकर--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 03 महावीर मन्नत सह गृह संस्था भूखंड 168 सेक्टर 09 उलवे रायगड नवी मुंबई 410206 क्षेत्रफळ 325 चौ फूट कारपेट",
+  "SROCode": "86",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 3,
+  "purchaseDate": {
+    "$date": "2023-10-18T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a29"
+  },
+  "DocNo": "4649",
+  "DName": "करारनामा",
+  "RDate": "09/04/2018",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा. लि. तर्फे डायरेक्टर भंवरलाल व्ही. छाजेर तर्फे कु. मु. मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"सचिन भिमराव कोडग--\"}",
+  "Property Description": ", इतर माहिती: विभाग क्र 27/1,दर 84,700/-,शॉप क्र 04,तळ मजला,\" महावीर मन्नत \" भूखंड क्र 168,सेक्टर क्र 9,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 39.39 चौ. मी. कारपेट.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 4,
+  "purchaseDate": {
+    "$date": "2018-04-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517910"
+  },
+  "DocNo": "5116",
+  "DName": "करारनामा",
+  "RDate": "27/05/2013",
+  "SROName": "सह दु.नि.पनवेल 4",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे..\"}",
+  "Purchaser Name": "{\"मुक्ताबेन के टाटारिया..\",\"सुनील के टाटारिया..\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 05 तळ मजला महावीर मन्नत भूखंड क्र 168 सेक्टर क्र 9 उलवे पनवेल - क्षेत्रफळ 406 चौ फुट कारपेट",
+  "SROCode": "528",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2013.json",
+  "sourceYear": "2013",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.440Z"
+  },
+  "shop": 5,
+  "purchaseDate": {
+    "$date": "2013-05-27T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a575179b7"
+  },
+  "DocNo": "4476",
+  "DName": "करारनामा",
+  "RDate": "06/07/2017",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"मुक्ताबेन केशवजी टाटारिया--\",\"सुनिल केशवजी टाटारिया--\"}",
+  "Purchaser Name": "{\"संपत सकाहारी गडाख--\"}",
+  "Property Description": ", इतर माहिती: विभाग नं.27.3,दर 84700 प्रती चौ.मी.,शॉप नं.005,तळमजला,महावीर मन्नत,प्लॉट नं.168(जीईएस),सेक्टर-9,उलवे,नवी मुंबई,ता. पनवेल व जि.रायगड,क्षेत्र 406 चौ.फुट.कारपेट",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 5,
+  "purchaseDate": {
+    "$date": "2017-07-06T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a575179c6"
+  },
+  "DocNo": "6454",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "17/07/2017",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"सुनिल केशवजी टाटारिया--\",\"मुक्ताबेन केशवजी टाटारिया--\"}",
+  "Purchaser Name": "{\"संपत सकाहारी गडाख--\"}",
+  "Property Description": ", इतर माहिती: शॉप नं.005,तळमजला,महावीर मन्नत,प्लॉट नं.168(जीईएस),सेक्टर-9,उलवे,नवी मुंबई,ता. पनवेल व जि.रायगड,क्षेत्र 406 चौ.फुट.कारपेट,करारनामा दस्त क्र.पवल3-4476-2017,दिनांक 06/07/2017,अन्वये मु.शु.420000/- व नों.फी.30000/- वसूल.",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 5,
+  "purchaseDate": {
+    "$date": "2017-07-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a75"
+  },
+  "DocNo": "10442",
+  "DName": "Leave and Licenses",
+  "RDate": "19/10/2018",
+  "SROName": "S.R. Panvel 1",
+  "Seller Name": "{SAMPATSAKAHARIGADAKH}",
+  "Purchaser Name": "{RohanBabanGholap}",
+  "Property Description": "Shop No:05, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 5,
+  "purchaseDate": {
+    "$date": "2018-10-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c1d"
+  },
+  "DocNo": "2242",
+  "DName": "Leave and Licenses",
+  "RDate": "25/02/2022",
+  "SROName": "Joint S.R.Panvel 1",
+  "Seller Name": "{SAMPATSAKAHARIGadakh}",
+  "Purchaser Name": "{AhadUddin-}",
+  "Property Description": "Shop No:Shop 05, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 5,
+  "purchaseDate": {
+    "$date": "2022-02-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c43"
+  },
+  "DocNo": "16206",
+  "DName": "Leave and Licenses",
+  "RDate": "06/10/2022",
+  "SROName": "Joint S.R.Panvel 5",
+  "Seller Name": "{SAMPATSAKAHARIGadakh}",
+  "Purchaser Name": "{RaghubarChauhanAshok}",
+  "Property Description": "Shop No:Shop 05, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 5,
+  "purchaseDate": {
+    "$date": "2022-10-06T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c99"
+  },
+  "DocNo": "18657",
+  "DName": "Leave and Licenses",
+  "RDate": "30/12/2023",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{SAMPATSAKAHARIGadakh}",
+  "Purchaser Name": "{PichayNadarUthaykumar}",
+  "Property Description": "Shop No:05, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 5,
+  "purchaseDate": {
+    "$date": "2023-12-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751796c"
+  },
+  "DocNo": "2403",
+  "DName": "भाडेपट्टा",
+  "RDate": "03/03/2016",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"भाडेकरु - मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भंवरलाल व्ही छाजेर--\"}",
+  "Purchaser Name": "{\"मालक - सिडको लि तर्फे ए बी घोरपडे--\"}",
+  "Property Description": ", इतर माहिती: भूखंड क्र 168 सेक्टर क्र 9 उलवे ता पनवेल जि रायगड - क्षेत्रफळ 6449.69 चौ मी",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2016.json",
+  "sourceYear": "2016",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.442Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2013-03-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751790f"
+  },
+  "DocNo": "5117",
+  "DName": "करारनामा",
+  "RDate": "27/05/2013",
+  "SROName": "सह दु.नि.पनवेल 4",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे..\"}",
+  "Purchaser Name": "{\"मुक्ताबेन के टाटारिया..\",\"सुनील के टाटारिया..\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 06 तळ मजला महावीर मन्नत भूखंड क्र 168 सेक्टर क्र 9 उलवे पनवेल - क्षेत्रफळ 325 चौ फुट कारपेट",
+  "SROCode": "528",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2013.json",
+  "sourceYear": "2013",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.440Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2013-05-27T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a3a"
+  },
+  "DocNo": "507",
+  "DName": "करारनामा",
+  "RDate": "12/01/2018",
+  "SROName": "सह दु.नि.पनवेल 4",
+  "Seller Name": "{\"मिसेस. मुक्ताबेन के. टाटारिया तर्फे कुलमुखत्यारी- श्री. सुनिल के. टाटारिया..\",\"श्री. सुनिल के. टाटारिया..\"}",
+  "Purchaser Name": "{\"मिसेस. मोनिषा राणा बावा..\"}",
+  "Property Description": ", इतर माहिती: , इतर माहिती: दर रु. 84,700 प्रति चौ.मी.,शॉप नं. 006,तळ मजला,''महाविर मन्नत'',प्लॉट नं. 168,सेक्टर नं. 9,मौजे उलवे,नवी मुंबई,ता. पनवेल,जि. रायगड,क्षेत्र 325 चौ.फुट कारपेट या मिळकतीचे..",
+  "SROCode": "528",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2018-01-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a30"
+  },
+  "DocNo": "1056",
+  "DName": "सेल डीड",
+  "RDate": "03/02/2018",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"मुक्ताबेन के. टाटारिया तर्फे कुलमुखत्यारी- श्री. सुनिल के. टाटारिया--\",\"सुनिल के. टाटारिया--\"}",
+  "Purchaser Name": "{\"मोनिषा राणा बावा--\"}",
+  "Property Description": ", इतर माहिती: दर रु. 84,700 प्रति चौ.मी.,शॉप नं. 006,तळ मजला,''महाविर मन्नत'',प्लॉट नं. 168,सेक्टर नं. 9,मौजे उलवे,नवी मुंबई,ता. पनवेल,जि. रायगड,क्षेत्र 325 चौ.फुट कारपेट या मिळकतीचे. दस्त क्र. पवल4-507/2018 दि. 12/01/2018 अन्वये मु.शु. 210000/- व नों.फी. 30000/- वसुल केली.",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2018-02-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a92"
+  },
+  "DocNo": "2515",
+  "DName": "Leave and Licenses",
+  "RDate": "06/03/2018",
+  "SROName": "Joint S.R. Panvel 5",
+  "Seller Name": "{MonishaBawa}",
+  "Purchaser Name": "{SeemaJaishankarDubey}",
+  "Property Description": "Shop No:6, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe, Road: Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2018-03-06T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b93"
+  },
+  "DocNo": "8961",
+  "DName": "Leave and Licenses",
+  "RDate": "23/08/2021",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{\"MonishaRanaMrs Bawa\"}",
+  "Purchaser Name": "{\"SeemaJaishankarMrs Dubey\"}",
+  "Property Description": "Shop No:6, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2021-08-23T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c27"
+  },
+  "DocNo": "6634",
+  "DName": "Leave and Licenses",
+  "RDate": "11/04/2022",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{\"MonishaRana Mrs Bawa\"}",
+  "Purchaser Name": "{\"RampritPrasad Gupta (Proprietorship) Idli Adda MumbaiAjit\"}",
+  "Property Description": "Shop No:6, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2022-04-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c9d"
+  },
+  "DocNo": "7407",
+  "DName": "Leave and Licenses",
+  "RDate": "06/09/2023",
+  "SROName": "Joint S.R.Panvel 1",
+  "Seller Name": "{\"MonishaRanaMrs Bawa\"}",
+  "Purchaser Name": "{\"-Arvind rajendra yadav\"}",
+  "Property Description": "Shop No:shop 06, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe 410206, Road:-, City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2023-09-06T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517cf9"
+  },
+  "DocNo": "19496",
+  "DName": "Leave and Licenses",
+  "RDate": "08/11/2024",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{\"MonishaRanaMrs Bawa\"}",
+  "Purchaser Name": "{\"Raghubar Chauhan Ashok\"}",
+  "Property Description": "Shop No:shop 06, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe 410206, Road:-, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2024.json",
+  "sourceYear": "2024",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.454Z"
+  },
+  "shop": 6,
+  "purchaseDate": {
+    "$date": "2024-11-08T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751792f"
+  },
+  "DocNo": "2313",
+  "DName": "करारनामा",
+  "RDate": "26/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे ओमप्रकाश छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"संदीप कालिका भूषण त्रिपाठी--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र एस-007 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 370 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 7,
+  "purchaseDate": {
+    "$date": "2014-03-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517989"
+  },
+  "DocNo": "8515",
+  "DName": "Leave and Licenses",
+  "RDate": "22/12/2016",
+  "SROName": "S.R. Panvel 1",
+  "Seller Name": "{SandeepKalikabhushanTripathi,KalikaBhushanTripathi}",
+  "Purchaser Name": "{SudhirChandrakantGaikwad}",
+  "Property Description": "Shop No:07, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Pin Code:410206, Road:------, City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2016.json",
+  "sourceYear": "2016",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.442Z"
+  },
+  "shop": 7,
+  "purchaseDate": {
+    "$date": "2016-12-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a20"
+  },
+  "DocNo": "9660",
+  "DName": "Leave and Licenses",
+  "RDate": "29/10/2017",
+  "SROName": "Joint S.R. Panvel 5",
+  "Seller Name": "{SandeepKalikabhushanTripathi}",
+  "Purchaser Name": "{VivekTripathi}",
+  "Property Description": "Shop No:07, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe,Pin Code:410206, Road:------, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 7,
+  "purchaseDate": {
+    "$date": "2017-10-29T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b08"
+  },
+  "DocNo": "3140",
+  "DName": "Leave and Licenses",
+  "RDate": "11/03/2019",
+  "SROName": "Joint S.R.Panvel 2",
+  "Seller Name": "{KalikaBhusanTripathi,SandeepKalikabhushanTripathi}",
+  "Purchaser Name": "{PankajGupta}",
+  "Property Description": "Shop No:07, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "353",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2019.json",
+  "sourceYear": "2019",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.446Z"
+  },
+  "shop": 7,
+  "purchaseDate": {
+    "$date": "2019-03-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a6d"
+  },
+  "DocNo": "5927",
+  "DName": "Leave and Licenses",
+  "RDate": "01/06/2018",
+  "SROName": "S.R. Panvel 1",
+  "Seller Name": "{\"SUNIL PRABHAKAR TEMKAR-\"}",
+  "Purchaser Name": "{\"VIKAS P WAGHULE-\"}",
+  "Property Description": "Shop No:8, Floor No:GROUND FLOOR, Building Name:MAHAVEER MANAT, Block Sector:TAL-PANVEL, DIST -RAIGAD 410206, Road:ULWE, NAVI MUMBAI, City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 8,
+  "purchaseDate": {
+    "$date": "2018-06-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b09"
+  },
+  "DocNo": "6999",
+  "DName": "Leave and Licenses",
+  "RDate": "10/06/2019",
+  "SROName": "Joint S.R.Panvel 2",
+  "Seller Name": "{SunilPrabhakarTemkar}",
+  "Purchaser Name": "{AkshaySantoshKharade,\"VikasPandharinathWaghule \"}",
+  "Property Description": "Shop No:08, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:Ulwe Navi Mumbai 410206, Road:.., City:Ulave, District:Raigad",
+  "SROCode": "353",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2019.json",
+  "sourceYear": "2019",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.446Z"
+  },
+  "shop": 8,
+  "purchaseDate": {
+    "$date": "2019-06-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517aa1"
+  },
+  "DocNo": "10848",
+  "DName": "करारनामा",
+  "RDate": "19/08/2019",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"राधिका सुनील टेमकर--\",\"सुनिल प्रभाकर टेमकर--\"}",
+  "Purchaser Name": "{\"जोस अंतो अय्निकदन--\",\"जैसी जोस--\"}",
+  "Property Description": ", इतर माहिती: गाळा क्र.- 08,तळ मजला,महावीर मन्नत को. ऑप. सो. लि,प्लॉट नं.- 168,सेक्टर -09,उलवे,नवी मुंबई,ता- पनवेल,जि- रायगड,क्षेत्रफळ - 381 चौ.फ़ुट.(कारपेट एरिया)",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2019.json",
+  "sourceYear": "2019",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.446Z"
+  },
+  "shop": 8,
+  "purchaseDate": {
+    "$date": "2019-08-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517aa2"
+  },
+  "DocNo": "13759",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "18/10/2019",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"सुनील प्रभाकर टेमकर--\",\"राधिका सुनील टेमकर तर्फे कु मु सुनील प्रभाकर टेमकर--\"}",
+  "Purchaser Name": "{\"जैसी जोस--\",\"जोस अंतो अय्निकदन--\"}",
+  "Property Description": ", इतर माहिती: गाळा क्र.- 08,तळ मजला,महावीर मन्नत को. ऑप. हौ. सो. लि,प्लॉट नं.- 168,सेक्टर -09,उलवे,नवी मुंबई,ता- पनवेल,जि- रायगड,क्षेत्रफळ - 381 चौ. मी.(कारपेट एरिया)(पवल-2-दस्त क्र.-10848/2019 दिनांक -19/08/2019 अन्वेय मुद्रांक शुल्क आणि नोंदणी फी वसूल)",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2019.json",
+  "sourceYear": "2019",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.446Z"
+  },
+  "shop": 8,
+  "purchaseDate": {
+    "$date": "2019-10-18T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a575179ab"
+  },
+  "DocNo": "9124",
+  "DName": "करारनामा",
+  "RDate": "04/08/2017",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भंवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"मेसर्स परफेक्ट रियल्टर्स तर्फे भागीदार पी. एम. अब्रांहम--\"}",
+  "Property Description": ", इतर माहिती: प्रभाव क्षेत्र: 27.3 दर 84700/- प्रति चौ मी शॉप क्र 09 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर क्र 9 उलवे ता पनवेल जि रायगड - क्षेत्रफळ 35 चौ मी कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 9,
+  "purchaseDate": {
+    "$date": "2017-08-04T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a575179f5"
+  },
+  "DocNo": "10497",
+  "DName": "Leave and Licenses",
+  "RDate": "14/12/2017",
+  "SROName": "S.R. Panvel 1",
+  "Seller Name": "{RealtorsPerfect,\"Abraham DevassyKonikara \"}",
+  "Purchaser Name": "{ShambhoNarayanThakur}",
+  "Property Description": "Shop No:09, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe,Pin Code-410206, Road:---, City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 9,
+  "purchaseDate": {
+    "$date": "2017-12-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b6d"
+  },
+  "DocNo": "7231",
+  "DName": "Leave and Licenses",
+  "RDate": "25/09/2020",
+  "SROName": "Joint S.R.Panvel 2",
+  "Seller Name": "{AbrahamKonikara,RealtorsPerfect}",
+  "Purchaser Name": "{RamachandranKNair}",
+  "Property Description": "Shop No:09, Floor No:Ground, Building Name:Mahavir Mannat CHS, Block Sector:Ulwe 410206, Road:Sector NO 09, City:Ulave, District:Raigad",
+  "SROCode": "353",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2020.json",
+  "sourceYear": "2020",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.447Z"
+  },
+  "shop": 9,
+  "purchaseDate": {
+    "$date": "2020-09-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d64"
+  },
+  "DocNo": "1552",
+  "DName": "Leave and Licenses",
+  "RDate": "25/01/2025",
+  "SROName": "Joint S.R.Panvel 5",
+  "Seller Name": "{\"Realtors Perfect \",\"MAbraham P\"}",
+  "Purchaser Name": "{\"Mohanlal Agarwal Satish \"}",
+  "Property Description": "Shop No:9 , Floor No:GROUND , Building Name:MAHAVIR MANNAT , Block Sector:ULWE NAVI MUMBAI-410206, Road:-, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 9,
+  "purchaseDate": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751797d"
+  },
+  "DocNo": "3220",
+  "DName": "36-अ-लिव्ह अॅड लायसन्सेस",
+  "RDate": "25/04/2016",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"मालक - भारती सिद्धार्थ पारधे--\",\"मालक - सिद्धार्थ लक्ष्मण पारधे--\"}",
+  "Purchaser Name": "{\"भाडेकरू - संतोष कुमार यादव सन ऑप राम नरेश यादव--\"}",
+  "Property Description": ", इतर माहिती: शॉप नं.10,महावीर मनत कॉ.ऑप.हौ.सो.,प्लॉट नं.168,सेक्टर नं.9,उलवे,ता.पनवेल,जि.रायगड. 33 महिन्याचा भाडेकरार",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2016.json",
+  "sourceYear": "2016",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.442Z"
+  },
+  "shop": 10,
+  "purchaseDate": {
+    "$date": "2016-04-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c2d"
+  },
+  "DocNo": "7561",
+  "DName": "Leave and Licenses",
+  "RDate": "27/04/2022",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{\"BharatiSiddharthMrs Pardhe\"}",
+  "Purchaser Name": "{\"SuhailAnwar MShaikh\"}",
+  "Property Description": "Shop No:10, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe Navi Mumbai 410206, Road:Sector-9, City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 10,
+  "purchaseDate": {
+    "$date": "2022-04-27T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517928"
+  },
+  "DocNo": "2195",
+  "DName": "करारनामा",
+  "RDate": "24/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"अनुराधा कृष्णदेव जाधव--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र एस-011 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 325 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 11,
+  "purchaseDate": {
+    "$date": "2014-03-24T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517924"
+  },
+  "DocNo": "2129",
+  "DName": "करारनामा",
+  "RDate": "21/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"बी गिरीष कुमार--\"}",
+  "Property Description": ", इतर माहिती: दुकान क्र 012 तळमजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 406 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 12,
+  "purchaseDate": {
+    "$date": "2014-03-21T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c9b"
+  },
+  "DocNo": "3328",
+  "DName": "Leave and Licenses",
+  "RDate": "12/04/2023",
+  "SROName": "Joint S.R.Panvel 1",
+  "Seller Name": "{\"Girish KumarBhaskaranPillai\"}",
+  "Purchaser Name": "{\"Nikhil kumarJain\"}",
+  "Property Description": "Shop No:Shop 12, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 12,
+  "purchaseDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517926"
+  },
+  "DocNo": "2128",
+  "DName": "करारनामा",
+  "RDate": "21/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"शिला गिरीष कुमार--\"}",
+  "Property Description": ", इतर माहिती: दुकान क्र 013 तळमजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 406 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 13,
+  "purchaseDate": {
+    "$date": "2014-03-21T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517cbd"
+  },
+  "DocNo": "4196",
+  "DName": "Leave and Licenses",
+  "RDate": "15/03/2023",
+  "SROName": "Joint S.R.Panvel 2",
+  "Seller Name": "{\"Sheela BGirishMrs .\"}",
+  "Purchaser Name": "{KumarJainNikhil}",
+  "Property Description": "Shop No:13, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "353",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 13,
+  "purchaseDate": {
+    "$date": "2023-03-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751792e"
+  },
+  "DocNo": "2307",
+  "DName": "करारनामा",
+  "RDate": "26/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे भवरलाल छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"निकलेश अरविंद गुप्ता हे स्वता करिता व अभिषेक अरविंद गुप्ता यांचे कु मु म्हणुन--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 14 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 325 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 14,
+  "purchaseDate": {
+    "$date": "2014-03-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a8f"
+  },
+  "DocNo": "661",
+  "DName": "Leave and Licenses",
+  "RDate": "17/01/2018",
+  "SROName": "Joint S.R. Panvel 5",
+  "Seller Name": "{AbhishekArvindGupta}",
+  "Purchaser Name": "{AnandGopiramAgarwal}",
+  "Property Description": "Shop No:14, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe,Pin Code-410206, Road:---, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 14,
+  "purchaseDate": {
+    "$date": "2018-01-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517bb8"
+  },
+  "DocNo": "11465",
+  "DName": "Leave and Licenses",
+  "RDate": "20/07/2021",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{NikleshArvindGupta,AbhishekArvindGupta}",
+  "Purchaser Name": "{\"NoorFatima mohammad shahidMrs Sayyed\"}",
+  "Property Description": "Shop No:14, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 14,
+  "purchaseDate": {
+    "$date": "2021-07-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517cef"
+  },
+  "DocNo": "12513",
+  "DName": "Leave and Licenses",
+  "RDate": "10/07/2024",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{NikleshArvindGupta,AbhishekArvindGupta}",
+  "Purchaser Name": "{\"NoorfatimaShakilMrs Patel\",ShakilAllauddinPatel}",
+  "Property Description": "Shop No:14, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2024.json",
+  "sourceYear": "2024",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.454Z"
+  },
+  "shop": 14,
+  "purchaseDate": {
+    "$date": "2024-07-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751799b"
+  },
+  "DocNo": "1690",
+  "DName": "करारनामा",
+  "RDate": "22/02/2017",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भंवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"श्याम ठाकुरदास जगवानी--\",\"पिंकी जगवानी--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 15 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर क्र 9 उलवे ता पनवेल जि रायगड - क्षेत्रफळ 34.37 चौ मी कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 15,
+  "purchaseDate": {
+    "$date": "2017-02-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751799a"
+  },
+  "DocNo": "1691",
+  "DName": "करारनामा",
+  "RDate": "22/02/2017",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भंवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"श्याम ठाकुरदास जगवानी--\",\"पिंकी जगवानी--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 16 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर क्र 9 उलवे ता पनवेल जि रायगड - क्षेत्रफळ 41.81 चौ मी कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 16,
+  "purchaseDate": {
+    "$date": "2017-02-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a575179b3"
+  },
+  "DocNo": "14538",
+  "DName": "करारनामा",
+  "RDate": "19/12/2017",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा. लि. तर्फे डायरेक्टर ओेमप्रकाश छाजेर तर्फे कु. मु. मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"भंवरलाल व्ही. छाजर--\"}",
+  "Property Description": ", इतर माहिती: विभाग क्र 27/1,दर 84,700/-,शॉप 17,तळ मजला,\" महावीर मन्नत \" भूखंड क्र 168,सेक्टर क्र 9,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 69.86 चौ. मी. कारपेट.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 17,
+  "purchaseDate": {
+    "$date": "2017-12-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c12"
+  },
+  "DocNo": "12907",
+  "DName": "Leave and Licenses",
+  "RDate": "12/10/2022",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{VirdhichandChhajerBhanwarlal,JaywantNetkeKunal,ThakurdasJagwaniShyam}",
+  "Purchaser Name": "{\"Fine Wine Having Pan Card No. AAYFK2861MKunal\",\"Fine Wine Having Pan Card No. AAYFK2861MKunal\"}",
+  "Property Description": "Shop No:17, Floor No:Ground, Building Name:MAHAAVIR MANNAT, Block Sector:Navi Mumbai - 410206, Road:Ulwe, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 17,
+  "purchaseDate": {
+    "$date": "2022-10-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517ce1"
+  },
+  "DocNo": "15046",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "11/09/2024",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"भंवरलाल व्ही. छाजर-\"}",
+  "Purchaser Name": "{\"पिंकी ठाकूरदास जगवानी-\"}",
+  "Property Description": ", इतर माहिती: प्रभावक्षेत्र -27.3,दर-103100/-प्रती चौ.मी, शॉप नं. 17,तळ मजला,महावीर मन्नत को-ऑपेराटीव्ह हौसिंग सोसायटी ली.,प्लॉट नं. 168,सेक्टर नं.9,उलवे,नवी मुंबई,ता.पनवेल,जि.रायगड,क्षेत्र. 69.86 चौ.मी. कारपेट एरिया",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2024.json",
+  "sourceYear": "2024",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.454Z"
+  },
+  "shop": 17,
+  "purchaseDate": {
+    "$date": "2024-09-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a575179b4"
+  },
+  "DocNo": "14539",
+  "DName": "करारनामा",
+  "RDate": "19/12/2017",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा. लि. तर्फे डायरेक्टर भंवरलाल व्ही. छाजेर तर्फे कु. मु. मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"मोहनीश छाजर--\"}",
+  "Property Description": ", इतर माहिती: विभाग क्र 27/1,दर 84,700/-,शॉप 18,तळ मजला,\" महावीर मन्नत \" भूखंड क्र 168,सेक्टर क्र 9,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 68.93 चौ. मी. कारपेट.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 18,
+  "purchaseDate": {
+    "$date": "2017-12-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517bd8"
+  },
+  "DocNo": "15406",
+  "DName": "सेल डीड",
+  "RDate": "07/11/2022",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मोहनीश ओमप्रकाश छाजर--\"}",
+  "Purchaser Name": "{\"मीना सुधीर जैन--\"}",
+  "Property Description": ", इतर माहिती: विभाग क्र 27/27.3,दर 103100/-,शॉप नं. 18,तळ मजला,\" महावीर मन्नत \" भूखंड क्र 168,सेक्टर क्र 9,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 68.93 चौ. मी. कारपेट.+ कार पार्किंग नं 116,117,118 पहिला मजला,",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 18,
+  "purchaseDate": {
+    "$date": "2022-11-07T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d3b"
+  },
+  "DocNo": "7232",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "04/04/2025",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"मीना सुधीर जैन--\"}",
+  "Purchaser Name": "{\"नथुमल दयालदास जशनानी---\",\"पुष्पा नथुमल जशनानी--\"}",
+  "Property Description": ", इतर माहिती: विभाग क्र-27.3,दर-118600/-प्रती चौ.मी.,शॉप नं. 18,तळ मजला,महावीर मन्नत ,महावीर मन्नत को-ऑप हौसिंग सोसायटी लिमिटेड,प्लॉट नं. 168,सेक्टर-9,उलवे,नवी मुंबई. क्षेत्र-68.93 चौ.मी,(742.चौ.फूट. कारपेट एरिया),सोबत अलॉन्ग विथ 3 स्टील कार पार्किंग स्पेस नं.116,117,118,पहिला मजला.",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 18,
+  "purchaseDate": {
+    "$date": "2025-04-04T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d25"
+  },
+  "DocNo": "8265",
+  "DName": "36-अ-लिव्ह अॅड लायसन्सेस",
+  "RDate": "22/04/2025",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"पुष्पा नथुमल जशनानी तर्फे कु.मु.म्हणून नथुमल दयालदास जशनानी--\",\"नथुमल दयालदास जशनानी--\"}",
+  "Purchaser Name": "{\"महासागर स्वीट्स तर्फे प्रोप्रायटर ममता सकाराम चौधरी,--\"}",
+  "Property Description": ", इतर माहिती: , इतर माहिती: शॉप नं - 18,तळ मजला,महावीर मन्नत को-ऑपरेटिव्ह हौसिंग सोसायटी लिमिटेड,प्लॉट नं - 168,सेक्टर - 9,उलवे,नवी मुंबई,एरिया - 68.93 चौ.मी.(742 चौ.फूट. कारपेट एरिया),3 कव्हर्ड कार पार्किंग स्पेस नं - 116,117,118,महिने - 60,ठेव - 11,00,000/-,भाडे - 1,35,000/-,1,41,750/-,1,48,837/-,1,56,279/-,1,64,093/-.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 18,
+  "purchaseDate": {
+    "$date": "2025-04-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a13"
+  },
+  "DocNo": "4281",
+  "DName": "Leave and Licenses",
+  "RDate": "23/05/2017",
+  "SROName": "Joint S.R. Panvel 5",
+  "Seller Name": "{VaradakantShrinivasKamath,NiveditaKamath}",
+  "Purchaser Name": "{RamKapura}",
+  "Property Description": "Shop No:19, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe,Pin Code-410206, Road:----, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2017-05-23T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a44"
+  },
+  "DocNo": "10293",
+  "DName": "विक्री करारनामा",
+  "RDate": "14/09/2018",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"निवेदिता कामत तर्फे कु. मु. म्हणून वरदाकांत श्रीनिवास कामत--\"}",
+  "Purchaser Name": "{\"विकास पंढरीनाथ वाघुले--\",\"चैताली विकास वाघुले--\"}",
+  "Property Description": ", इतर माहिती: प्रभावक्षेत्र-27.3,दर-84700/-प्रचौमी,दुकान नंबर 19 तळमजला महावीर मन्नत भूखंड नंबर 168 सेक्टर 09 उलवे नवी मुंबई 410206 ,क्षेत्र-373 चौ.फुट कारपेट + ओपन कार पार्किंग नंबर 085-क्षेत्र-11.15 चौ.मी",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2018-09-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a85"
+  },
+  "DocNo": "11334",
+  "DName": "Leave and Licenses",
+  "RDate": "25/09/2018",
+  "SROName": "Joint S.R. Panvel 4",
+  "Seller Name": "{ChaitaliVikasWaghule,VikasPandharinathWaghule}",
+  "Purchaser Name": "{ShobharamChoudhary}",
+  "Property Description": "Shop No:19, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2018-09-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a3b"
+  },
+  "DocNo": "12006",
+  "DName": "सेल डीड",
+  "RDate": "16/10/2018",
+  "SROName": "सह दु.नि.पनवेल 4",
+  "Seller Name": "{\"निवेदिता कामत तर्फे कु मु म्हणून वरदाकांत श्रीनिवास कामत--\"}",
+  "Purchaser Name": "{\"विकास पंढरीनाथ वाघुले--\",\"चैताली विकास वाघुले--\"}",
+  "Property Description": ", इतर माहिती: , इतर माहिती: विभाग क्र. 27.3 दर 84700 /- प्रति चौ मी दुकान क्र. 19 तळ मजला महावीर मन्नत प्लॉट नं. 168 सेक्टर 09 उलवे नवी मुंबई क्षेत्र 373 चौ मी कारपेट+ ओपन कार पार्किंग नंबर 085 क्षेत्र 11 .15 चौ मी दस्त क्र पनवेल 5/10293 /2018 दिनांक 14 /09 /2018 रोजी झालेल्या दस्ता मध्ये मुद्रांक शुल्क व नोंदणी फी वसूल",
+  "SROCode": "528",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2018-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a8d"
+  },
+  "DocNo": "14348",
+  "DName": "Leave and Licenses",
+  "RDate": "29/12/2018",
+  "SROName": "Joint S.R. Panvel 4",
+  "Seller Name": "{\"ChaitaliVikasMrs Waghule\",VikasPandharinathWaghule}",
+  "Purchaser Name": "{BharatPrajapat}",
+  "Property Description": "Shop No:19, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2018-12-29T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517ae7"
+  },
+  "DocNo": "5463",
+  "DName": "Leave and Licenses",
+  "RDate": "29/03/2019",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{VikasPandharinathWaghule}",
+  "Purchaser Name": "{SanjayPanchaKhambhalya}",
+  "Property Description": "Shop No:19, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2019.json",
+  "sourceYear": "2019",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.446Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2019-03-29T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b8c"
+  },
+  "DocNo": "2551",
+  "DName": "Leave and Licenses",
+  "RDate": "25/02/2021",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{\"ChaitaliVikasMrs Waghule\"}",
+  "Purchaser Name": "{\"JayashreeUdhavMrs Pol\"}",
+  "Property Description": "Shop No:19, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2021-02-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517ba2"
+  },
+  "DocNo": "9690",
+  "DName": "Leave and Licenses",
+  "RDate": "20/10/2021",
+  "SROName": "Joint S.R.Panvel 1",
+  "Seller Name": "{\"ChaitaliVikasMrs Waghule\"}",
+  "Purchaser Name": "{BhaveshKumarThakur}",
+  "Property Description": "Shop No:Shop 19, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2021-10-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517ccf"
+  },
+  "DocNo": "9878",
+  "DName": "36-अ-लिव्ह अॅड लायसन्सेस",
+  "RDate": "22/05/2024",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{विकासपंढरीनाथवाघुले,चैतालीविकासवाघुले}",
+  "Purchaser Name": "{सिराजअहमद}",
+  "Property Description": ", इतर माहिती: शॉप नं. 19,महावीर मन्नत सीएचएस लि. प्लॉट नं.168,सेक्टर 9,उलवे,नवी मुंबई",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2024.json",
+  "sourceYear": "2024",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.454Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2024-05-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d51"
+  },
+  "DocNo": "20939",
+  "DName": "Leave and Licenses",
+  "RDate": "18/11/2025",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{\"ChaitaliVikasMrs Waghule\",PandharinathWaghuleVikas}",
+  "Purchaser Name": "{KaluramChaudharyManish,SirviVijay}",
+  "Property Description": "Shop No:Shop 19, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 19,
+  "purchaseDate": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a12"
+  },
+  "DocNo": "4136",
+  "DName": "Leave and Licenses",
+  "RDate": "17/05/2017",
+  "SROName": "Joint S.R. Panvel 5",
+  "Seller Name": "{VaradakantShrinivasKamath}",
+  "Purchaser Name": "{MularamjiChoudharyKapuraram}",
+  "Property Description": "Shop No:20, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe,Pin Code-410206, Road:-----, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 20,
+  "purchaseDate": {
+    "$date": "2017-05-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a43"
+  },
+  "DocNo": "9950",
+  "DName": "करारनामा",
+  "RDate": "05/09/2018",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"वरदकांत श्रीनिवास कामत--\"}",
+  "Purchaser Name": "{\"संजय महादेव बनकर--\",\"अमोल तुकाराम भुजबळ--\"}",
+  "Property Description": ", इतर माहिती: प्रभावक्षेत्र-27.3 दर-84700/- प्रती चौ मी. शॉप नं. 20,तळ मजला,महावीर मन्नत,प्लॉट नं. 168,सेक्टर 9,उलवे,ता. पनवेल,जि. रागयड क्षेत्र 367 चौ. फूट. कारपेट",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 20,
+  "purchaseDate": {
+    "$date": "2018-09-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a45"
+  },
+  "DocNo": "10297",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "14/09/2018",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"वरदाकांत श्रीनिवास कामत--\"}",
+  "Purchaser Name": "{\"संजय महादेव बनकर--\",\"अमोल तुकाराम भुजबळ---\"}",
+  "Property Description": ", इतर माहिती: दुकान नंबर 20 तळमजला महावीर मन्नत भूखंड नंबर 168 सेक्टर 09 उलवे नवी मुंबई.क्षेत्र-367 चौ.फुट कारपेट .यापूर्वीचा करारनामा पवल-5 दस्त क्र.9950/2018 नुसार दिनांक-05/09/2018 रोजी मु.शु 480000/- भरण्यात आलेला आहे.",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 20,
+  "purchaseDate": {
+    "$date": "2018-09-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a42"
+  },
+  "DocNo": "10302",
+  "DName": "गहाणखत",
+  "RDate": "14/09/2018",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"विक्रांत नागरी सहकारी पतसंस्था मर्यादित तर्फे सुनिल भगवान वाव्हळ--\"}",
+  "Purchaser Name": "{\"अमोल तुकाराम भुजबळ--\",\"संजय महादेव बनकर--\"}",
+  "Property Description": ", इतर माहिती: दुकान नंबर 20 तळमजला महावीर मन्नत भूखंड नंबर 168 सेक्टर 09 उलवे नवी मुंबई.क्षेत्र-367 चौ.फुट कारपेट",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 20,
+  "purchaseDate": {
+    "$date": "2018-09-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a71"
+  },
+  "DocNo": "9787",
+  "DName": "Leave and Licenses",
+  "RDate": "01/10/2018",
+  "SROName": "S.R. Panvel 1",
+  "Seller Name": "{SanjayMahadeoBankar,AmolTukaramBhujbal}",
+  "Purchaser Name": "{SHOBHARAMCHOUDHARY}",
+  "Property Description": "Shop No:20, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 20,
+  "purchaseDate": {
+    "$date": "2018-10-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a86"
+  },
+  "DocNo": "12054",
+  "DName": "Leave and Licenses",
+  "RDate": "17/10/2018",
+  "SROName": "Joint S.R. Panvel 4",
+  "Seller Name": "{SanjayMahadeoBankar,AmolTukaramBhujbal}",
+  "Purchaser Name": "{GHISARAM.}",
+  "Property Description": "Shop No:20, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 20,
+  "purchaseDate": {
+    "$date": "2018-10-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a9f"
+  },
+  "DocNo": "14045",
+  "DName": "Leave and Licenses",
+  "RDate": "30/12/2018",
+  "SROName": "Joint S.R. Panvel 5",
+  "Seller Name": "{SanjayMahadeoBankar,AmolTukaramBhujbal}",
+  "Purchaser Name": "{BHARATPrajapat}",
+  "Property Description": "Shop No:20, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:..., City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 20,
+  "purchaseDate": {
+    "$date": "2018-12-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517973"
+  },
+  "DocNo": "8187",
+  "DName": "करारनामा",
+  "RDate": "14/07/2016",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भंवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"शितल जितेंद्र पिंगळे--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 21 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर क्र 9 उलवे ता पनवेल जि रायगड - क्षेत्रफळ 29.91 चौ मी कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2016.json",
+  "sourceYear": "2016",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.442Z"
+  },
+  "shop": 21,
+  "purchaseDate": {
+    "$date": "2016-07-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517927"
+  },
+  "DocNo": "2142",
+  "DName": "करारनामा",
+  "RDate": "21/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"स्वाती दिपक बन्सल--\",\"दिपक गुरुप्रसाद बन्सल तर्फे कु.मु. गरुप्रसाद बन्सल--\"}",
+  "Property Description": ", इतर माहिती: दुकान क्र एस-022 तळमजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 403 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 22,
+  "purchaseDate": {
+    "$date": "2014-03-21T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c09"
+  },
+  "DocNo": "4868",
+  "DName": "Leave and Licenses",
+  "RDate": "18/04/2022",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{DeepakGurparshadBansal,GurparshadBansal}",
+  "Purchaser Name": "{SiddheshBhopi}",
+  "Property Description": "Shop No:22, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 22,
+  "purchaseDate": {
+    "$date": "2022-04-18T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d45"
+  },
+  "DocNo": "1047",
+  "DName": "Leave and Licenses",
+  "RDate": "17/01/2025",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{DeepakGurparshadBansal,GurparshadBansal,KumarAnil}",
+  "Purchaser Name": "{\"Sna milk andMilk Products Private LimitedFor\"}",
+  "Property Description": "Shop No:22, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 22,
+  "purchaseDate": {
+    "$date": "2025-01-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517923"
+  },
+  "DocNo": "2143",
+  "DName": "करारनामा",
+  "RDate": "21/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"रामश्रेय राय--\",\"रमावती राय--\"}",
+  "Property Description": ", इतर माहिती: दुकान क्र एस-023 तळमजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 395 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 23,
+  "purchaseDate": {
+    "$date": "2014-03-21T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c39"
+  },
+  "DocNo": "10271",
+  "DName": "Leave and Licenses",
+  "RDate": "21/06/2022",
+  "SROName": "Joint S.R.Panvel 5",
+  "Seller Name": "{\"Ram ashreyDukharanRai\"}",
+  "Purchaser Name": "{SureshIshwarlalPatidar}",
+  "Property Description": "Shop No:23, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 23,
+  "purchaseDate": {
+    "$date": "2022-06-21T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517caa"
+  },
+  "DocNo": "507",
+  "DName": "Leave and Licenses",
+  "RDate": "10/01/2023",
+  "SROName": "Joint S.R.Panvel 5",
+  "Seller Name": "{\"Ram ashreyDukharanRai\"}",
+  "Purchaser Name": "{\"ArvindChavanMrs Asha\"}",
+  "Property Description": "Shop No:23, Floor No:Ground, Building Name:Mahaavir Mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 23,
+  "purchaseDate": {
+    "$date": "2023-01-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517944"
+  },
+  "DocNo": "3053",
+  "DName": "करारनामा",
+  "RDate": "23/04/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर ओमप्रकाश बी छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"अलफरिद अब्दुल करिम डिंगणकर--\",\"दिलशाद हुसेन मेहमुद पेटकर तर्फे कु.मु. बिलकीस अलफरीद डिंगणकर--\"}",
+  "Property Description": ", इतर माहिती: शॉप न 24 महावीर मन्नत भुखंड क्र 168 सेक्टर 9 उलवे नवी मुंबई - क्षेत्रफळ 322चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 24,
+  "purchaseDate": {
+    "$date": "2014-04-23T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a88"
+  },
+  "DocNo": "9902",
+  "DName": "Leave and Licenses",
+  "RDate": "13/08/2018",
+  "SROName": "Joint S.R. Panvel 4",
+  "Seller Name": "{\" Alfarid Abdul KarimDingankar\"}",
+  "Purchaser Name": "{\"Ramachandran KNair\"}",
+  "Property Description": "Shop No:24, Floor No:GROUND, Building Name:MAHAVIR MANNAT, Block Sector:ULWE 410206, Road:SECTOR 9, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 24,
+  "purchaseDate": {
+    "$date": "2018-08-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b4b"
+  },
+  "DocNo": "7614",
+  "DName": "Leave and Licenses",
+  "RDate": "23/12/2020",
+  "SROName": "Joint S.R.Panvel 1",
+  "Seller Name": "{\"BilkisAlfaridMrs Dingankar\",\" Alfarid Abdul KarimDingankar\"}",
+  "Purchaser Name": "{\"ArchanaMrs Shelar\"}",
+  "Property Description": "Shop No:24, Floor No:GROUND, Building Name:MAHAVIR MANNAT, Block Sector:ULWE 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2020.json",
+  "sourceYear": "2020",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.447Z"
+  },
+  "shop": 24,
+  "purchaseDate": {
+    "$date": "2020-12-23T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b9a"
+  },
+  "DocNo": "13436",
+  "DName": "Leave and Licenses",
+  "RDate": "08/12/2021",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{\" Alfarid Abdul KarimDingankar\",\"BilkisAlfaridMrs Dingankar\"}",
+  "Purchaser Name": "{\"KurianPulikkottilMiss Angela\"}",
+  "Property Description": "Shop No:24, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 24,
+  "purchaseDate": {
+    "$date": "2021-12-08T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517cc4"
+  },
+  "DocNo": "17626",
+  "DName": "Leave and Licenses",
+  "RDate": "10/10/2023",
+  "SROName": "Joint S.R.Panvel 2",
+  "Seller Name": "{\" Alfarid Abdul KarimDingankar\",\"BilkisAlfaridMrs Dingankar\"}",
+  "Purchaser Name": "{\"EdwinMrs Angela\"}",
+  "Property Description": "Shop No:24, Floor No:GROUND, Building Name:MAHAAVIR MANNAT, Block Sector:ULWE 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "353",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.452Z"
+  },
+  "shop": 24,
+  "purchaseDate": {
+    "$date": "2023-10-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517999"
+  },
+  "DocNo": "3963",
+  "DName": "करारनामा",
+  "RDate": "15/04/2017",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर यूनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भंवरलाल व्ही छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"देव प्रतापमलजी भंडारी--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 25,तळ मजला,\" महावीर मन्नत \" भूखंड क्र 168,सेक्टर क्र 9,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 34 चौ. मी. कारपेट.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 25,
+  "purchaseDate": {
+    "$date": "2017-04-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a07"
+  },
+  "DocNo": "11880",
+  "DName": "Leave and Licenses",
+  "RDate": "16/10/2017",
+  "SROName": "Joint S.R. Panvel 4",
+  "Seller Name": "{DeoPratapmalBhandari}",
+  "Purchaser Name": "{ShivanandDilipHatte}",
+  "Property Description": "Shop No:25, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe,Pin Code-410206, Road:---, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2017.json",
+  "sourceYear": "2017",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.444Z"
+  },
+  "shop": 25,
+  "purchaseDate": {
+    "$date": "2017-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b4a"
+  },
+  "DocNo": "7016",
+  "DName": "Leave and Licenses",
+  "RDate": "12/12/2020",
+  "SROName": "Joint S.R.Panvel 1",
+  "Seller Name": "{DeoPratapmalBhandari}",
+  "Purchaser Name": "{KiranSakharamAmbrulkar}",
+  "Property Description": "Shop No:25, Floor No:Graund floor, Building Name:Mahaavir mannat, Block Sector:Ulwe-410206, Road: Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2020.json",
+  "sourceYear": "2020",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.447Z"
+  },
+  "shop": 25,
+  "purchaseDate": {
+    "$date": "2020-12-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517cfc"
+  },
+  "DocNo": "2279",
+  "DName": "Leave and Licenses",
+  "RDate": "05/02/2024",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{DeoPratapmalBhandari}",
+  "Purchaser Name": "{KiranSakharamAmbrulkar}",
+  "Property Description": "Shop No:25, Floor No:Ground floor, Building Name:Mahaavir mannat, Block Sector:Ulwe-410206, Road: Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2024.json",
+  "sourceYear": "2024",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.454Z"
+  },
+  "shop": 25,
+  "purchaseDate": {
+    "$date": "2024-02-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517931"
+  },
+  "DocNo": "2367",
+  "DName": "करारनामा",
+  "RDate": "27/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मेसर्स महावीर युनिवर्सल होम्स प्रा लि तर्फे ओमप्रकाश बी छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"राजेश कुमार जी धोका--\",\"रेखा अमृत जैन--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 26 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 378 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 26,
+  "purchaseDate": {
+    "$date": "2014-03-27T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a31"
+  },
+  "DocNo": "1012",
+  "DName": "करारनामा",
+  "RDate": "02/02/2018",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"राजेश कुमार जी. धोका--\",\"रेखा अमृत जैन--\"}",
+  "Purchaser Name": "{\"हिमश्री आनंद कस्तुरी--\",\"आनंद कस्तुरी लक्ष्मीनारायण--\"}",
+  "Property Description": ", इतर माहिती: प्रभाव क्षेत्र 27.3 दर 84700/-शॉप न.26,तळ मजला,महावीर मन्नत,प्लॉट न.168,सेक्टर-9,उलवे,नवी मुंबई,ता. पनवेल,जि. रायगड.क्षेत्रफळ 378.00 चौ. फुट. कारपेट",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 26,
+  "purchaseDate": {
+    "$date": "2018-02-02T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a28"
+  },
+  "DocNo": "3442",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "15/03/2018",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"राजेश कुमार जी. धोका--\",\"रेखा अमृत जैन--\"}",
+  "Purchaser Name": "{\"आनंद कस्तुरी लक्ष्मीनारायण--\",\"हिमश्री आनंद कस्तुरी--\"}",
+  "Property Description": ", इतर माहिती: शॉप न.26,तळ मजला,महावीर मन्नत,प्लॉट न.168,सेक्टर-9,उलवे,नवी मुंबई,ता. पनवेल,जि. रायगड. क्षेत्रफळ 378.00 चौ. फुट. कारपेट.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 26,
+  "purchaseDate": {
+    "$date": "2018-03-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517a95"
+  },
+  "DocNo": "5325",
+  "DName": "Leave and Licenses",
+  "RDate": "05/05/2018",
+  "SROName": "Joint S.R. Panvel 5",
+  "Seller Name": "{AnandLakshminarayanKasturi,KasturiHimashree}",
+  "Purchaser Name": "{SakharamAmbrulkarKiran}",
+  "Property Description": "Shop No:26, Floor No:Ground, Building Name:Mahavir Mannat, Block Sector:Ulwe/Pin Code 410206, Road:--, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2018.json",
+  "sourceYear": "2018",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.445Z"
+  },
+  "shop": 26,
+  "purchaseDate": {
+    "$date": "2018-05-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517bad"
+  },
+  "DocNo": "4875",
+  "DName": "Leave and Licenses",
+  "RDate": "09/03/2021",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{AnandKasturiLakshminarayan}",
+  "Purchaser Name": "{OmPrakashRajbhar}",
+  "Property Description": "Shop No:26, Floor No:GROUND, Building Name:MAHAAVIR MANNAT , Block Sector:ULWE 410206, Road:., City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 26,
+  "purchaseDate": {
+    "$date": "2021-03-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751793e"
+  },
+  "DocNo": "2408",
+  "DName": "करारनामा",
+  "RDate": "28/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"उलवे गोल्ड रिअल्टी प्रा लि तर्फे डायरेक्टर निलम भारव्दाज--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 27 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 378 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 27,
+  "purchaseDate": {
+    "$date": "2014-03-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517bd9"
+  },
+  "DocNo": "16677",
+  "DName": "करारनामा",
+  "RDate": "02/12/2022",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मे. उलवे गोल्ड एंटरप्रायजेस प्रा. लि. तर्फे अधिकृत सहिकर्ता अनिश शर्मा--\"}",
+  "Purchaser Name": "{\"आनंद कस्तुरी लक्ष्मीनारायण--\",\"हिमश्री कस्तुरी--\"}",
+  "Property Description": ", इतर माहिती: शॉप नं. 027,तळ मजला,महावीर मन्नत को-ऑप. हौसिंग सोसा. लि.,प्लॉट नं. 168,सेक्टर - 09,उलवे,ता. पनवेल. जि. रायगड,क्षेत्रफळ 378 चौ. फूट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 27,
+  "purchaseDate": {
+    "$date": "2022-12-02T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517bda"
+  },
+  "DocNo": "17166",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "09/12/2022",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"मे. उलवे गोल्ड एंटरप्राइजेस प्रा. लि. अधिकृत हस्ताक्षरकर्ता श्री. अनिश शर्मा-\"}",
+  "Purchaser Name": "{\"--सौ. हिमश्री कस्तुरी पत्नी आनंद कस्तुरी\",\"--आनंद कस्तुरी लक्ष्मीनारायण\"}",
+  "Property Description": ", इतर माहिती: दुकान क्र.027,तळमजला,महावीर मन्नत सह. गृह. संस्था मर्या. भूखंड क्र.168,सेक्टर-09,उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ 378 चौ. फुट. चटई क्षेत्र., दस्त क्र. 16677/2022, दि. 02/12/2022, अन्वये मु.शु व नों.फी. वसुल केली.",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 27,
+  "purchaseDate": {
+    "$date": "2022-12-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751793c"
+  },
+  "DocNo": "2404",
+  "DName": "करारनामा",
+  "RDate": "28/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"उलवे गोल्ड रिअल्टी प्रा लि तर्फे डायरेक्टर निलम भारव्दाज--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 28 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 367 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 28,
+  "purchaseDate": {
+    "$date": "2014-03-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c61"
+  },
+  "DocNo": "13987",
+  "DName": "सेल डीड",
+  "RDate": "31/07/2023",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"उलवे गोल्ड इंटरप्रायझेस प्रायव्हेट लिमिटेड तर्फे अनीश सुर्यप्रकाश शर्मा--\"}",
+  "Purchaser Name": "{\"श्री. विजयकुमार राजलिंगम बोगा आणि सौ. संध्या विजयकुमार बोगातर्फे कु. मु. राजलिंगम लच्चय्या बोगा-\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र.28,तळ मजला,\"महावीर मन्नत सहकारी गृहनिर्माण संस्था मर्यादित\",भूखंड क्र. 168,सेक्टर - 09,मौजे - उलवे,ता. पनवेल,जि. रायगड. क्षेत्रफळ :- 367 चौ.फूट कारपेट",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 28,
+  "purchaseDate": {
+    "$date": "2023-07-31T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751793f"
+  },
+  "DocNo": "2409",
+  "DName": "करारनामा",
+  "RDate": "28/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"उलवे गोल्ड रिअल्टी प्रा लि तर्फे डायरेक्टर निलम भारव्दाज--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 29 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 322 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 29,
+  "purchaseDate": {
+    "$date": "2014-03-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c74"
+  },
+  "DocNo": "3693",
+  "DName": "भाडेपट्टा",
+  "RDate": "03/03/2023",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"यूको बँक तर्फे वरिष्ठ प्रबंधक शैलेश कुमार--\"}",
+  "Purchaser Name": "{\"मे. उलवे गोल्ड इंटरप्रायझेस प्रा. तर्फे अधिकृत सहिकर्ता अनिश एस. शर्मा--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र. 29 ते 31,तळ मजला,महावीर मन्नत,प्लॉट क्र .168,सेक्टर-9,उलवे,ता. पनवेल,जिल्हा रायगड .. क्षेत्रफळ 1126 चौ.फूट कारपेट",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 29,
+  "purchaseDate": {
+    "$date": "2023-03-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c65"
+  },
+  "DocNo": "13655",
+  "DName": "65-चुक दुरुस्ती पत्र",
+  "RDate": "27/09/2023",
+  "SROName": "सह दु.नि.पनवेल 4",
+  "Seller Name": "{\"मे. उलवे गोल्ड इंटरप्रायझेस प्रा. लि. तर्फे अधिकृत सहिकर्ता अनिश एस. शर्मा--\"}",
+  "Purchaser Name": "{\"युको बँक तर्फे वरिष्ठ प्रबंधक शैलेश कुमार--\"}",
+  "Property Description": ", इतर माहिती: शॉप नं.29,30,व 31,तळ मजला,महावीर मन्नत,प्लॉट नं.168,सेक्टर नं.9,उलवे,नवी मुंबई,ता.पनवेल,जिल्हा - रायगड(क्षेत्र 1160 चौ.फुट कार्पेट) द. क्र. 3693/2023 यातील पान क्र. 23 वर क्षेत्र चुकीचे 1126 चौ.फुट झाले ते दुरुस्त वर्णन 1160 चौ.फुट समजावे वाढीव क्षेत्र 3.43 चौ.मी. कारपेट मु. शु. अदा केली.",
+  "SROCode": "528",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 29,
+  "purchaseDate": {
+    "$date": "2023-09-27T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d28"
+  },
+  "DocNo": "29010",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "29/12/2025",
+  "SROName": "सह दु.नि.पनवेल 3",
+  "Seller Name": "{\"मे. उलवे गोल्ड एन्टरप्रासेस प्रा.लिमिटेड तर्फे डायरेक्टर अनीश सूर्यप्रकाश शर्मा-\"}",
+  "Purchaser Name": "{\"मे प्रभादेवी बी स्पेस एलएलपी तर्फे 1.कनू मणिलाल ठक्कर 2.ज्योती कनू ठक्कर 3.धवल कनू ठक्कर 4.अदिती प्रकाश मशरु तर्फे सही करणार पार्टनर कनू मणिलाल ठक्कर-\"}",
+  "Property Description": ", इतर माहिती: शॉप नं.29,तळ मजला,महावीर मन्नत को-ऑपरेटिव्ह हौसिंग सोसायटी लिमिटेड,प्लॉट नं.168,सेक्टर 9,उलवे,ता. पनवेल,जि. रायगड,(क्षेत्र. 322 चौ.फुट कार्पेट एरिया)",
+  "SROCode": "398",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 29,
+  "purchaseDate": {
+    "$date": "2025-12-29T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a5751793b"
+  },
+  "DocNo": "2401",
+  "DName": "करारनामा",
+  "RDate": "28/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"उलवे गोल्ड रिअल्टी प्रा लि तर्फे डायरेक्टर निलम भारव्दाज--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 30 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 402 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 30,
+  "purchaseDate": {
+    "$date": "2014-03-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d35"
+  },
+  "DocNo": "5833",
+  "DName": "करारनामा",
+  "RDate": "28/07/2025",
+  "SROName": "सह दु.नि.पनवेल 1",
+  "Seller Name": "{\"उलवे गोल्ड रियालिटी प्रा लि तर्फे डायरेक्टर अनीस सुर्यप्रकाश शर्मा--\"}",
+  "Purchaser Name": "{\"उमेश भास्कर पाटील--\"}",
+  "Property Description": ", इतर माहिती: वि.27.3,दर.118600/- मौजे उलवे, ता.पनवेल,जि.रायगड येथील प्लॉट नं.168, सेक्टर नं.9, या मिळकती वरील महावीर मन्नत को.ऑप.हौ.सो.लि.या इमारती मधिल शॉप नं 030,तळमजला,क्षेत्र 402 चौ.फूट कारपेट",
+  "SROCode": "86",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 30,
+  "purchaseDate": {
+    "$date": "2025-07-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d3f"
+  },
+  "DocNo": "19736",
+  "DName": "सेल डीड",
+  "RDate": "20/09/2025",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"उलवे गोल्ड रियालिटी प्रा लि तर्फे डायरेक्टर अनीस सुर्यप्रकाश शर्मा\"}",
+  "Purchaser Name": "{\"उमेश भास्कर पाटील\"}",
+  "Property Description": ", इतर माहिती: वि.27.3,दर.118600/- मौजे उलवे,ता.पनवेल,जि.रायगड येथील प्लॉट नं.168,सेक्टर नं.9,या मिळकती वरील महावीर मन्नत को.ऑप.हौ.सो.लि.या इमारती मधिल शॉप नं 030,तळमजला,क्षेत्र 402 चौ.फूट कारपेट,दस्त क्रमांक 5833/2025,पवल-1,दिनांक 28/07/2025 रोजी मुद्रांक शुल्क आणि नोंदणी फी वसूल करण्यात आली आहे...",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 30,
+  "purchaseDate": {
+    "$date": "2025-09-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517936"
+  },
+  "DocNo": "2402",
+  "DName": "करारनामा",
+  "RDate": "28/03/2014",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"महावीर युनिवर्सल होम्स प्रा लि तर्फे डायरेक्टर भवरलाल छाजेर तर्फे कु मु मिथिलेश पांडे--\"}",
+  "Purchaser Name": "{\"उलवे गोल्ड रिअल्टी प्रा लि तर्फे डायरेक्टर निलम भारव्दाज--\"}",
+  "Property Description": ", इतर माहिती: शॉप क्र 31 तळ मजला \" महावीर मन्नत \" भूखंड क्र 168 सेक्टर 09 उलवे - क्षेत्रफळ 402 चौ फुट कारपेट",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2014.json",
+  "sourceYear": "2014",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.441Z"
+  },
+  "shop": 31,
+  "purchaseDate": {
+    "$date": "2014-03-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d36"
+  },
+  "DocNo": "6545",
+  "DName": "सेल डीड",
+  "RDate": "19/08/2025",
+  "SROName": "सह दु.नि.पनवेल 1",
+  "Seller Name": "{\"उलवे गोल्ड रियल्टी प्रा. लि. तर्फे सही करणार ॲथोराईज्ड डायरेक्टर अनिश शर्मा..\"}",
+  "Purchaser Name": "{\"वसंत तुकाराम घुले..\"}",
+  "Property Description": ", इतर माहिती: विभाग 27.3,दर 118600/- प्रती चौ. मी. - शॉप नं. 31,तळ मजला,महाविर मन्नत को. ऑप. हौसिंग सोसायटी लि.,प्लॉट नं. 168,सेक्टर 9,मौजे उलवे,नवी मुंबई,ता. पनवेल,जि. रायगड,क्षेत्र. 402 चौ. फुट कारपेट एरिया या मिळकतीचे",
+  "SROCode": "86",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 31,
+  "purchaseDate": {
+    "$date": "2025-08-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517bbb"
+  },
+  "DocNo": "17642",
+  "DName": "Leave and Licenses",
+  "RDate": "03/11/2021",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{\"ManjuMrs Prajapati\",\"Fateh ChandPrajapati\"}",
+  "Purchaser Name": "{\"MauryaMrs Pooja\"}",
+  "Property Description": "Shop No:Shop no 32, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 32,
+  "purchaseDate": {
+    "$date": "2021-11-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d24"
+  },
+  "DocNo": "23958",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "24/12/2025",
+  "SROName": "सह दु.नि.पनवेल 2",
+  "Seller Name": "{\"फतेहचंद प्रजापती एच यु एफ तर्फे कर्ता मंजु प्रजापती\"}",
+  "Purchaser Name": "{\"कल्पेश पालन छाडवा एच यु एफ तर्फे कर्ता श्री. कल्पेश पालन छाडवा\"}",
+  "Property Description": ", इतर माहिती: शॉप नं. 32,तळ मजला,महावीर मन्नत को-ऑप. हौसिंग सोसायटी लिमिटेड,प्लॉट नं. 168,सेक्टर-9,उलवे(जी ई एस),नवी मुंबई,तालुका पनवेल,जिल्हा रायगड ---क्षेत्रफळ 321 चौरस फूट कार्पेट एरिया",
+  "SROCode": "353",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 32,
+  "purchaseDate": {
+    "$date": "2025-12-24T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c34"
+  },
+  "DocNo": "3968",
+  "DName": "Leave and Licenses",
+  "RDate": "09/03/2022",
+  "SROName": "Joint S.R.Panvel 5",
+  "Seller Name": "{\"Fateh ChandPrajapati\",\"ManjuMrs Prajapati\"}",
+  "Purchaser Name": "{\"AnandMrs Sunanda\"}",
+  "Property Description": "Shop No:Shop no 33, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "529",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 33,
+  "purchaseDate": {
+    "$date": "2022-03-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517ca7"
+  },
+  "DocNo": "20780",
+  "DName": "Leave and Licenses",
+  "RDate": "24/11/2023",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{\"Fateh ChandPrajapati\",\"ManjuMrs Prajapati\"}",
+  "Purchaser Name": "{KaluramChaudharyManish,SirviVijay}",
+  "Property Description": "Shop No:Shop no 33, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 33,
+  "purchaseDate": {
+    "$date": "2023-11-24T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d37"
+  },
+  "DocNo": "24912",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "24/12/2025",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"शांतीदेवी प्रजापती\"}",
+  "Purchaser Name": "{\"कल्पेश पालन छाडवा एच यु एफ तर्फे कर्ता श्री. कल्पेश पालन छाडवा\"}",
+  "Property Description": ", इतर माहिती: प्रभावक्षेत्र-27.1,दर-99000/-प्रती चौ.मी., शॉप नं. 33,तळ मजला,महावीर मन्नत को-ऑप. हौसिंग सोसायटी लिमिटेड,प्लॉट नं. 168,सेक्टर-9,उलवे(जी ई एस),नवी मुंबई,तालुका पनवेल,जिल्हा रायगड ---क्षेत्रफळ 366 चौरस फूट कार्पेट एरिया",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 33,
+  "purchaseDate": {
+    "$date": "2025-12-24T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517b49"
+  },
+  "DocNo": "6554",
+  "DName": "Leave and Licenses",
+  "RDate": "03/12/2020",
+  "SROName": "Joint S.R.Panvel 1",
+  "Seller Name": "{\"-Mrs Shanti devi parjapati\"}",
+  "Purchaser Name": "{\"-Mangesh rajendra borade\"}",
+  "Property Description": "Shop No:34, Building Name:Mahavir Mannat, Block Sector:Ulwe - 410206, Road:Plot no 168, Sector no 09, City:Ulave, District:Raigad",
+  "SROCode": "86",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2020.json",
+  "sourceYear": "2020",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.447Z"
+  },
+  "shop": 34,
+  "purchaseDate": {
+    "$date": "2020-12-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517bb7"
+  },
+  "DocNo": "11668",
+  "DName": "Leave and Licenses",
+  "RDate": "23/07/2021",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{\"ManjuMrs Prajapati\",\"-Mrs Shanti devi parjapati\"}",
+  "Purchaser Name": "{\"Sunanda AnandMrs -\"}",
+  "Property Description": "Shop No:34, Floor No:GROUND, Building Name:Mahavir Mannat, Block Sector:Ulwe - 410206, Road:Sector no 09, City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2021.json",
+  "sourceYear": "2021",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.448Z"
+  },
+  "shop": 34,
+  "purchaseDate": {
+    "$date": "2021-07-23T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c2f"
+  },
+  "DocNo": "15819",
+  "DName": "Leave and Licenses",
+  "RDate": "19/09/2022",
+  "SROName": "Joint S.R.Panvel 3",
+  "Seller Name": "{\"Santi DeviMrs Prajapati\"}",
+  "Purchaser Name": "{\"AnandMrs Sunanda\"}",
+  "Property Description": "Shop No:34, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "398",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2022.json",
+  "sourceYear": "2022",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.450Z"
+  },
+  "shop": 34,
+  "purchaseDate": {
+    "$date": "2022-09-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517c97"
+  },
+  "DocNo": "16828",
+  "DName": "Leave and Licenses",
+  "RDate": "30/11/2023",
+  "SROName": "Joint S.R.Panvel 4",
+  "Seller Name": "{\"Santi DeviMrs Prajapati\"}",
+  "Purchaser Name": "{KaluramChaudharyManish,SirviVijay}",
+  "Property Description": "Shop No:34, Floor No:Ground, Building Name:Mahaavir mannat, Block Sector:Ulwe 410206, Road:Sector 9, City:Ulave, District:Raigad",
+  "SROCode": "528",
+  "Status": "6",
+  "IndexII": "IndexII",
+  "sourceFile": "2023.json",
+  "sourceYear": "2023",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.451Z"
+  },
+  "shop": 34,
+  "purchaseDate": {
+    "$date": "2023-11-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "697e250b1553202a57517d38"
+  },
+  "DocNo": "24913",
+  "DName": "अभिहस्तांतरणपत्र",
+  "RDate": "24/12/2025",
+  "SROName": "सह दु.नि.पनवेल 5",
+  "Seller Name": "{\"शांतीदेवी प्रजापती\"}",
+  "Purchaser Name": "{\"गिता प्रकाश छाडवा\"}",
+  "Property Description": ", इतर माहिती: प्रभावक्षेत्र-27.1,दर-99000/-प्रती चौ.मी., शॉप नं. 34,तळ मजला,महावीर मन्नत को-ऑप. हौसिंग सोसायटी लिमिटेड,प्लॉट नं. 168,सेक्टर-9,उलवे(जी ई एस),नवी मुंबई,तालुका पनवेल,जिल्हा रायगड ---क्षेत्रफळ 373 चौरस फूट कार्पेट एरिया",
+  "SROCode": "529",
+  "Status": "4",
+  "IndexII": "IndexII",
+  "sourceFile": "2025.json",
+  "sourceYear": "2025",
+  "importedAt": {
+    "$date": "2026-01-31T15:51:39.455Z"
+  },
+  "shop": 34,
+  "purchaseDate": {
+    "$date": "2025-12-24T00:00:00.000Z"
+  }
+}]

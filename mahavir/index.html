@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahavir Mannat - Property Timeline</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-card .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-card .label {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        /* Accordion Styles */
+        .accordion-item {
+            margin-bottom: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .accordion-item:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .accordion-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .accordion-header:hover {
+            opacity: 0.95;
+        }
+
+        .shop-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .shop-number {
+            font-size: 1.8em;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .shop-details {
+            flex: 1;
+        }
+
+        .shop-details .title {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        .shop-details .count {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        .accordion-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-item.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: #f8f9fa;
+        }
+
+        .accordion-item.active .accordion-content {
+            max-height: 5000px;
+        }
+
+        /* Timeline Styles */
+        .timeline {
+            padding: 30px 20px;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, #667eea, #764ba2);
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 80px;
+            margin-bottom: 30px;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 42px;
+            top: 0;
+            width: 18px;
+            height: 18px;
+            background: white;
+            border: 3px solid #667eea;
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.2);
+        }
+
+        .timeline-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .timeline-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        .timeline-info {
+            display: grid;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #667eea;
+            min-width: 100px;
+        }
+
+        .info-value {
+            color: #666;
+            flex: 1;
+            word-break: break-word;
+        }
+
+        .show-more-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .show-more-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            overflow: auto;
+            padding: 20px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .modal-header h2 {
+            font-size: 1.5em;
+        }
+
+        .close-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 1.8em;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .close-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(90deg);
+        }
+
+        .modal-body {
+            padding: 30px;
+        }
+
+        .detail-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .detail-table tr {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .detail-table tr:last-child {
+            border-bottom: none;
+        }
+
+        .detail-table td {
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        .detail-table td:first-child {
+            font-weight: 600;
+            color: #667eea;
+            width: 180px;
+        }
+
+        .detail-table td:last-child {
+            color: #666;
+            word-break: break-word;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .empty-state svg {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                border-radius: 15px;
+            }
+
+            .header {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.5em;
+            }
+
+            .header p {
+                font-size: 0.95em;
+            }
+
+            .content {
+                padding: 15px;
+            }
+
+            .shop-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .shop-number {
+                font-size: 1.4em;
+                padding: 8px 16px;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                padding-left: 50px;
+            }
+
+            .timeline-dot {
+                left: 12px;
+            }
+
+            .info-row {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .info-label {
+                min-width: auto;
+            }
+
+            .modal-content {
+                margin: 0;
+                max-height: 100vh;
+                border-radius: 15px;
+            }
+
+            .modal-body {
+                padding: 20px;
+            }
+
+            .detail-table td {
+                padding: 12px;
+                display: block;
+                width: 100%;
+            }
+
+            .detail-table td:first-child {
+                width: 100%;
+                padding-bottom: 5px;
+            }
+
+            .detail-table td:last-child {
+                padding-top: 5px;
+            }
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏢 Mahavir Mannat Property Timeline</h1>
+            <p>Complete transaction history by shop number</p>
+        </div>
+
+        <div class="stats" id="stats">
+            <!-- Stats will be dynamically generated -->
+        </div>
+
+        <div class="content" id="content">
+            <!-- Accordion items will be dynamically generated -->
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Document Details</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be dynamically generated -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ========================================
+        // CONFIGURATION
+        // ========================================
+        const DATA_SOURCE = 'data.json'; // JSON file in same folder
+        
+        let propertyData = [];
+
+        // ========================================
+        // DATA LOADING
+        // ========================================
+        
+        async function loadData() {
+            try {
+                console.log('Loading data from:', DATA_SOURCE);
+                const response = await fetch(DATA_SOURCE);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                propertyData = data;
+                console.log(`Loaded ${propertyData.length} documents`);
+                
+                // Initialize the UI
+                init();
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showError(error.message);
+            }
+        }
+
+        function showError(message) {
+            document.getElementById('content').innerHTML = `
+                <div class="empty-state">
+                    <p style="color: #e74c3c; font-size: 1.2em; margin-bottom: 20px;">
+                        ⚠️ Error Loading Data
+                    </p>
+                    <p style="color: #666; margin-bottom: 20px;">
+                        ${message}
+                    </p>
+                    <p style="color: #999; font-size: 0.9em;">
+                        Make sure data.json is in the same folder as this HTML file.<br>
+                        If viewing locally, run a local server:<br><br>
+                        <code style="background: #f5f5f5; padding: 10px; display: inline-block; border-radius: 5px;">
+                            cd report<br>
+                            python3 -m http.server 8000
+                        </code>
+                    </p>
+                </div>
+            `;
+        }
+
+        // ========================================
+        // UTILITY FUNCTIONS
+        // ========================================
+        
+        function cleanJsonString(str) {
+            if (!str) return '';
+            // Remove JSON formatting characters
+            return str.replace(/[{}"\\]/g, '').replace(/,/g, ', ').trim();
+        }
+
+        function truncateText(text, maxLength = 50) {
+            if (!text) return 'N/A';
+            const cleaned = cleanJsonString(text);
+            if (cleaned.length <= maxLength) return cleaned;
+            return cleaned.substring(0, maxLength) + '...';
+        }
+
+        function formatDate(dateObj) {
+            if (!dateObj || !dateObj.$date) return 'N/A';
+            const date = new Date(dateObj.$date);
+            return date.toLocaleDateString('en-IN', { 
+                day: '2-digit', 
+                month: 'short', 
+                year: 'numeric' 
+            });
+        }
+
+        // ========================================
+        // DATA PROCESSING
+        // ========================================
+        
+        function processData() {
+            // Group data by shop number
+            const groupedByShop = {};
+            
+            propertyData.forEach(item => {
+                const shop = item.shop || 0;
+                if (!groupedByShop[shop]) {
+                    groupedByShop[shop] = [];
+                }
+                groupedByShop[shop].push(item);
+            });
+
+            // Sort each shop's documents by purchase date
+            Object.keys(groupedByShop).forEach(shop => {
+                groupedByShop[shop].sort((a, b) => {
+                    const dateA = a.purchaseDate?.$date ? new Date(a.purchaseDate.$date) : new Date(0);
+                    const dateB = b.purchaseDate?.$date ? new Date(b.purchaseDate.$date) : new Date(0);
+                    return dateA - dateB;
+                });
+            });
+
+            return groupedByShop;
+        }
+
+        // ========================================
+        // UI RENDERING
+        // ========================================
+        
+        function renderStats(groupedData) {
+            const totalShops = Object.keys(groupedData).length;
+            const totalDocs = propertyData.length;
+            const shopsWithData = Object.keys(groupedData).filter(shop => shop != 0).length;
+
+            const statsHtml = `
+                <div class="stat-card">
+                    <div class="number">${totalDocs}</div>
+                    <div class="label">Total Documents</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">${shopsWithData}</div>
+                    <div class="label">Shops</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">${new Date().getFullYear()}</div>
+                    <div class="label">Current Year</div>
+                </div>
+            `;
+
+            document.getElementById('stats').innerHTML = statsHtml;
+        }
+
+        function renderTimeline(documents) {
+            if (documents.length === 0) {
+                return '<div class="no-data">No documents found</div>';
+            }
+
+            return `
+                <div class="timeline">
+                    ${documents.map((doc, index) => `
+                        <div class="timeline-item" style="animation-delay: ${index * 0.1}s">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-card">
+                                <span class="timeline-date">${formatDate(doc.purchaseDate)}</span>
+                                <div class="timeline-title">${doc.DName || 'N/A'}</div>
+                                <div class="timeline-info">
+                                    <div class="info-row">
+                                        <span class="info-label">Purchaser:</span>
+                                        <span class="info-value">${truncateText(doc['Purchaser Name'])}</span>
+                                    </div>
+                                    <div class="info-row">
+                                        <span class="info-label">Seller:</span>
+                                        <span class="info-value">${truncateText(doc['Seller Name'])}</span>
+                                    </div>
+                                    <div class="info-row">
+                                        <span class="info-label">Doc No:</span>
+                                        <span class="info-value">${doc.DocNo || 'N/A'}</span>
+                                    </div>
+                                </div>
+                                <button class="show-more-btn" onclick="showDetails(${index}, ${doc.shop})">
+                                    Show More ➜
+                                </button>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function renderAccordion(groupedData) {
+            const sortedShops = Object.keys(groupedData)
+                .filter(shop => shop != 0)
+                .sort((a, b) => parseInt(a) - parseInt(b));
+
+            if (sortedShops.length === 0) {
+                return '<div class="empty-state"><p>No shop data available</p></div>';
+            }
+
+            const html = sortedShops.map(shop => {
+                const documents = groupedData[shop];
+                return `
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="shop-info">
+                                <div class="shop-number">#${shop}</div>
+                                <div class="shop-details">
+                                    <div class="title">Shop ${shop}</div>
+                                    <div class="count">${documents.length} transaction${documents.length > 1 ? 's' : ''}</div>
+                                </div>
+                            </div>
+                            <div class="accordion-icon">▼</div>
+                        </div>
+                        <div class="accordion-content">
+                            ${renderTimeline(documents)}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('content').innerHTML = html;
+        }
+
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            const wasActive = item.classList.contains('active');
+            
+            // Close all accordions
+            document.querySelectorAll('.accordion-item').forEach(el => {
+                el.classList.remove('active');
+            });
+
+            // Open clicked accordion if it wasn't active
+            if (!wasActive) {
+                item.classList.add('active');
+            }
+        }
+
+        function showDetails(index, shop) {
+            const groupedData = processData();
+            const doc = groupedData[shop][index];
+
+            const modalBody = document.getElementById('modalBody');
+            modalBody.innerHTML = `
+                <table class="detail-table">
+                    <tr>
+                        <td>Document Number</td>
+                        <td>${doc.DocNo || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>Document Name</td>
+                        <td>${doc.DName || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>Registration Date</td>
+                        <td>${doc.RDate || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>Purchase Date</td>
+                        <td>${formatDate(doc.purchaseDate)}</td>
+                    </tr>
+                    <tr>
+                        <td>Shop Number</td>
+                        <td>${doc.shop || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>SRO Name</td>
+                        <td>${doc.SROName || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>SRO Code</td>
+                        <td>${doc.SROCode || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>Purchaser Name</td>
+                        <td>${cleanJsonString(doc['Purchaser Name'])}</td>
+                    </tr>
+                    <tr>
+                        <td>Seller Name</td>
+                        <td>${cleanJsonString(doc['Seller Name'])}</td>
+                    </tr>
+                    <tr>
+                        <td>Property Description</td>
+                        <td>${doc['Property Description'] || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>Source Year</td>
+                        <td>${doc.sourceYear || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>Source File</td>
+                        <td>${doc.sourceFile || 'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>${doc.Status || 'N/A'}</td>
+                    </tr>
+                </table>
+            `;
+
+            document.getElementById('modal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Close modal on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // ========================================
+        // INITIALIZATION
+        // ========================================
+        
+        function init() {
+            if (propertyData.length === 0) {
+                showError('No data available');
+                return;
+            }
+            
+            const groupedData = processData();
+            renderStats(groupedData);
+            renderAccordion(groupedData);
+        }
+
+        // Load data when page loads
+        window.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
