@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -218,7 +219,7 @@
 
     <div class="section">
         <label>Guest Names (in English):</label>
-        <textarea id="guestNamesEnglish" placeholder="Dhananjay Gadakh"></textarea>
+        <textarea id="guestNamesEnglish" placeholder="Raj Kumar"></textarea>
     </div>
 
     <button style="width: 40%;" onclick="generateNameEnglish()">Translate to Marathi</button>
@@ -287,53 +288,62 @@ function encodeName(name) {
 
 function generateLinks() {
     const baseUrl = document.getElementById('baseUrl').value.trim();
-    const guestNames = document.getElementById('guestNames').value.trim().split('\n').filter(n => n.trim());
+
+    const englishName = document.getElementById('guestNamesEnglish').value.trim().split('\n')[0];
+    let marathiName = document.getElementById('guestNames').value.trim().split('\n')[0];
+    const finalName = marathiName ? marathiName : englishName;
+
     const messageTemplate = document.getElementById('messageTemplate').value;
     const mul = getCurrentMul();
     const eventType = getCurrentEventType();
 
     if (!baseUrl) return alert('Please enter your invitation URL');
-    if (guestNames.length === 0) return alert('Please enter at least one guest name');
+    if (!finalName) return alert('Please enter at least one guest name');
+
+    const encodedName = encodeName(finalName);
+    const personalUrl = `${baseUrl}?gid=${encodedName}&ev=${eventType}&m=${mul}`;
+    const message = messageTemplate.replace(/{NAME}/g, finalName).replace(/{URL}/g, personalUrl);
 
     const resultsDiv = document.getElementById('results');
-    resultsDiv.innerHTML = '<h2 style="margin-bottom: 20px;">📱 Generated Links & Messages</h2>';
+    resultsDiv.innerHTML = '<h2 style="margin-bottom: 20px;">📱 Generated Link & Message</h2>';
 
-    guestNames.forEach((name, index) => {
-        const trimmedName = name.trim();
-        const encodedName = encodeName(trimmedName);
-        const personalUrl = `${baseUrl}?gid=${encodedName}&ev=${eventType}&m=${mul}`;
-        const message = messageTemplate.replace(/{NAME}/g, trimmedName).replace(/{URL}/g, personalUrl);
-        console.log(message);
-        // const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
-        const whatsappUrl = `https://wa.me/?text=${message}`;
+    const urlId = `url-display`;
+    const msgId = `whatsapp-msg`;
 
-        const urlId = `url-display-${index}`;
-        const msgId = `whatsapp-msg-${index}`;
+    const resultItem = document.createElement('div');
+    resultItem.className = 'result-item';
+    resultItem.innerHTML = `
+        <h3>${finalName}</h3>
 
-        const resultItem = document.createElement('div');
-        resultItem.className = 'result-item';
-        resultItem.innerHTML = `
-            <h3>${index + 1}. ${trimmedName}</h3>
-            <strong>Personal URL:</strong>
-            <div id="${urlId}" style="background:#f0f0f0;padding:8px;border-radius:5px;word-break:break-all;">${personalUrl}</div>
-            <button class="copy-btn" onclick="copyToClipboard('${urlId}')">Copy URL</button>
-            <strong style="display:block;margin-top:15px;">WhatsApp Message:</strong>
-            <div id="${msgId}" style="background:#dcf8c6;padding:10px;border-radius:8px;white-space:pre-wrap;">${message}</div>
-            <button class="copy-btn" onclick="copyToClipboard('${msgId}')">Copy Message</button>
-            <button class="copy-btn" onclick="openWhatsapp('${msgId}')" style="background:#25D366;">Send via WhatsApp</button>
-            <!-- <a href="${whatsappUrl}" target="_blank" style="display:inline-block;margin-left:10px;">
-                <button class="copy-btn" style="background:#25D366;">Send via WhatsApp</button>
-             </a> -->
-        `;
-        resultsDiv.appendChild(resultItem);
-    });
+        <!-- Hidden URL -->
+        <div id="${urlId}" style="display:none;">${personalUrl}</div>
+
+        <strong style="display:block;margin-top:15px;">WhatsApp Message:</strong>
+
+        <button class="copy-btn" onclick="copyAndOpenWhatsApp('${msgId}')" style="background:#25D366;">
+            Copy & Open WhatsApp
+        </button>
+
+        <div id="${msgId}" style="background:#dcf8c6;padding:10px;border-radius:8px;white-space:pre-wrap;">
+            ${message}
+        </div>
+    `;
+    resultsDiv.appendChild(resultItem);
+
     resultsDiv.classList.add('show');
 }
 
-async function openWhatsapp(msgId) {
-  copyToClipboard(msgId)  
-  window.open(`https://wa.me/?text=`);
+function copyAndOpenWhatsApp(msgId) {
+    const message = document.getElementById(msgId).innerText;
+
+    navigator.clipboard.writeText(message).then(() => {
+        window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
+    }).catch(err => {
+        console.error(err);
+        alert('Failed to copy.');
+    });
 }
+
 async function generateNameEnglish() {
     const text = document.getElementById("guestNamesEnglish").value;
     const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=mr&dt=t&q=${encodeURIComponent(text)}`;
